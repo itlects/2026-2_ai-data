@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="551.0pt" height="286.0pt" viewBox="0 0 551.0 286.0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<defs>
+<style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+</defs>
+<g id="figure_1">
+<g id="patch_1">
+<path d="M 0 286.0 
+L 551.0 286.0 
+L 551.0 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+</g>
+<g id="axes_1">
+<g id="patch_2">
+<path d="M 41.6 245.3 
+L 543.8 245.3 
+L 543.8 23.5 
+L 41.6 23.5 
+z
+" style="fill: #ffffff"/>
+</g>
+<g id="patch_3">
+<path d="M 64.5 245.3 
+L 140.6 245.3 
+L 140.6 222.1 
+L 64.5 222.1 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #2a9d8f"/>
+</g>
+<g id="patch_4">
+<path d="M 159.6 245.3 
+L 235.7 245.3 
+L 235.7 191.2 
+L 159.6 191.2 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #2a9d8f"/>
+</g>
+<g id="patch_5">
+<path d="M 254.7 245.3 
+L 330.8 245.3 
+L 330.8 139.7 
+L 254.7 139.7 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #2a9d8f"/>
+</g>
+<g id="patch_6">
+<path d="M 349.8 245.3 
+L 425.9 245.3 
+L 425.9 85.6 
+L 349.8 85.6 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #2a9d8f"/>
+</g>
+<g id="patch_7">
+<path d="M 444.9 245.3 
+L 521.0 245.3 
+L 521.0 34.1 
+L 444.9 34.1 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #2a9d8f"/>
+</g>
+<g id="patch_8">
+<path d="M 64.5 245.3 
+L 140.6 245.3 
+L 140.6 232.4 
+L 64.5 232.4 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #e76f51"/>
+</g>
+<g id="patch_9">
+<path d="M 159.6 245.3 
+L 235.7 245.3 
+L 235.7 214.4 
+L 159.6 214.4 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #e76f51"/>
+</g>
+<g id="patch_10">
+<path d="M 254.7 245.3 
+L 330.8 245.3 
+L 330.8 178.3 
+L 254.7 178.3 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #e76f51"/>
+</g>
+<g id="patch_11">
+<path d="M 349.8 245.3 
+L 425.9 245.3 
+L 425.9 162.9 
+L 349.8 162.9 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #e76f51"/>
+</g>
+<g id="patch_12">
+<path d="M 444.9 245.3 
+L 521.0 245.3 
+L 521.0 152.6 
+L 444.9 152.6 
+z
+" clip-path="url(#p56e5f767c5)" style="fill: #e76f51"/>
+</g>
+<g id="matplotlib.axis_1">
+<g id="xtick_1">
+<g id="line2d_1">
+<defs>
+<path id="m57a0944522" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+</defs>
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m57a0944522" x="102.5" y="245.3"/>
+</g>
+</g>
+</g>
+<g id="text_1">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="102.5" y="261.0" transform="rotate(-0 102.5 261.0)">0.0</text>
+</g>
+</g>
+<g id="xtick_2">
+<g id="line2d_2">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m57a0944522" x="197.6" y="245.3"/>
+</g>
+</g>
+</g>
+<g id="text_2">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="197.6" y="261.0" transform="rotate(-0 197.6 261.0)">0.0</text>
+</g>
+</g>
+<g id="xtick_3">
+<g id="line2d_3">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m57a0944522" x="292.7" y="245.3"/>
+</g>
+</g>
+</g>
+<g id="text_3">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="292.7" y="261.0" transform="rotate(-0 292.7 261.0)">0.1</text>
+</g>
+</g>
+<g id="xtick_4">
+<g id="line2d_4">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m57a0944522" x="387.8" y="245.3"/>
+</g>
+</g>
+</g>
+<g id="text_4">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="387.8" y="261.0" transform="rotate(-0 387.8 261.0)">0.1</text>
+</g>
+</g>
+<g id="xtick_5">
+<g id="line2d_5">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m57a0944522" x="483.0" y="245.3"/>
+</g>
+</g>
+</g>
+<g id="text_5">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="483.0" y="261.0" transform="rotate(-0 483.0 261.0)">0.2</text>
+</g>
+</g>
+<g id="text_6">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="292.7" y="276.3" transform="rotate(-0 292.7 276.3)">contamination (이상 비율 가정)</text>
+</g>
+</g>
+<g id="matplotlib.axis_2">
+<g id="ytick_1">
+<g id="line2d_6">
+<defs>
+<path id="m7a371ab9b0" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+</defs>
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="245.3"/>
+</g>
+</g>
+</g>
+<g id="text_7">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="249.7" transform="rotate(-0 34.6 249.7)">0</text>
+</g>
+</g>
+<g id="ytick_2">
+<g id="line2d_7">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="219.5"/>
+</g>
+</g>
+</g>
+<g id="text_8">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="223.9" transform="rotate(-0 34.6 223.9)">10</text>
+</g>
+</g>
+<g id="ytick_3">
+<g id="line2d_8">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="193.8"/>
+</g>
+</g>
+</g>
+<g id="text_9">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="198.1" transform="rotate(-0 34.6 198.1)">20</text>
+</g>
+</g>
+<g id="ytick_4">
+<g id="line2d_9">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="168.0"/>
+</g>
+</g>
+</g>
+<g id="text_10">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="172.4" transform="rotate(-0 34.6 172.4)">30</text>
+</g>
+</g>
+<g id="ytick_5">
+<g id="line2d_10">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="142.3"/>
+</g>
+</g>
+</g>
+<g id="text_11">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="146.6" transform="rotate(-0 34.6 146.6)">40</text>
+</g>
+</g>
+<g id="ytick_6">
+<g id="line2d_11">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="116.5"/>
+</g>
+</g>
+</g>
+<g id="text_12">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="120.9" transform="rotate(-0 34.6 120.9)">50</text>
+</g>
+</g>
+<g id="ytick_7">
+<g id="line2d_12">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="90.7"/>
+</g>
+</g>
+</g>
+<g id="text_13">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="95.1" transform="rotate(-0 34.6 95.1)">60</text>
+</g>
+</g>
+<g id="ytick_8">
+<g id="line2d_13">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="65.0"/>
+</g>
+</g>
+</g>
+<g id="text_14">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="69.4" transform="rotate(-0 34.6 69.4)">70</text>
+</g>
+</g>
+<g id="ytick_9">
+<g id="line2d_14">
+<g>
+<g style="stroke: #000000; stroke-width: 0.8">
+<use xlink:href="#m7a371ab9b0" x="41.6" y="39.2"/>
+</g>
+</g>
+</g>
+<g id="text_15">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: end" x="34.6" y="43.6" transform="rotate(-0 34.6 43.6)">80</text>
+</g>
+</g>
+<g id="text_16">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: middle" x="15.9" y="134.4" transform="rotate(-90 15.9 134.4)">건수 (410일 중)</text>
+</g>
+</g>
+<g id="line2d_15">
+<path d="M 41.6 137.1 
+L 543.8 137.1 
+" clip-path="url(#p56e5f767c5)" style="fill: none; stroke-dasharray: 5.5,2.4; stroke-dashoffset: 0; stroke: #e9c46a; stroke-width: 1.5"/>
+</g>
+<g id="patch_13">
+<path d="M 41.6 245.3 
+L 41.6 23.5 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+</g>
+<g id="patch_14">
+<path d="M 41.6 245.3 
+L 543.8 245.3 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+</g>
+<g id="text_17">
+<text style="font-weight: 700; font-size: 10px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1f3a5f" x="102.5" y="218.2" transform="rotate(-0 102.5 218.2)">9건</text>
+</g>
+<g id="text_18">
+<text style="font-weight: 700; font-size: 10px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1f3a5f" x="197.6" y="187.3" transform="rotate(-0 197.6 187.3)">21건</text>
+</g>
+<g id="text_19">
+<text style="font-weight: 700; font-size: 10px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1f3a5f" x="292.7" y="135.8" transform="rotate(-0 292.7 135.8)">41건</text>
+</g>
+<g id="text_20">
+<text style="font-weight: 700; font-size: 10px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1f3a5f" x="387.8" y="81.7" transform="rotate(-0 387.8 81.7)">62건</text>
+</g>
+<g id="text_21">
+<text style="font-weight: 700; font-size: 10px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1f3a5f" x="483.0" y="30.2" transform="rotate(-0 483.0 30.2)">82건</text>
+</g>
+<g id="text_22">
+<text style="font-size: 10px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #b8860b" x="59.7" y="132.0" transform="rotate(-0 59.7 132.0)">규칙 이상 42건</text>
+</g>
+<g id="text_23">
+<text style="font-weight: 700; font-size: 13px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1f3a5f" x="41.6" y="17.5" transform="rotate(-0 41.6 17.5)">contamination은 ‘정답’이 아니라 사람이 정하는 가정값이다</text>
+</g>
+<g id="legend_1">
+<g id="patch_15">
+<path d="M 51.5 42.2 
+L 73.5 42.2 
+L 73.5 34.5 
+L 51.5 34.5 
+z
+" style="fill: #2a9d8f"/>
+</g>
+<g id="text_24">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="82.3" y="42.2" transform="rotate(-0 82.3 42.2)">AI 이상 판정 수</text>
+</g>
+<g id="patch_16">
+<path d="M 51.5 59.0 
+L 73.5 59.0 
+L 73.5 51.3 
+L 51.5 51.3 
+z
+" style="fill: #e76f51"/>
+</g>
+<g id="text_25">
+<text style="font-size: 11px; font-family: 'Noto Sans CJK JP'; text-anchor: start" x="82.3" y="59.0" transform="rotate(-0 82.3 59.0)">그중 규칙도 이상</text>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="p56e5f767c5">
+<rect x="41.6" y="23.5" width="502.2" height="221.7"/>
+</clipPath>
+</defs>
+</svg>
