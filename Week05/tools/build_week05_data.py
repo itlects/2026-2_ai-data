@@ -55,15 +55,16 @@ def main(marcap_dir: str, start: str, end: str) -> None:
     })
     raw.to_csv(OUT / "krx_daily_3stocks_raw_ko.csv", index=False, encoding="utf-8-sig")
 
-    # 3) KOSPI 지수 (비교 기준선) — FinanceDataReader의 GitHub 캐시
-    try:
-        import FinanceDataReader as fdr
-        k = fdr.DataReader("KS11", start, end).reset_index()
-        k = k[["Date", "Open", "High", "Low", "Close", "Volume", "Amount"]]
-        k["Date"] = pd.to_datetime(k["Date"]).dt.strftime("%Y-%m-%d")
-        k.to_csv(OUT / "kospi_daily.csv", index=False, encoding="utf-8-sig")
-    except Exception as e:  # 지수는 선택 자료
-        print("KOSPI 다운로드 실패:", e)
+    # 3) KOSPI·KOSDAQ 지수 (비교 기준선, 워크북4) — FinanceDataReader의 GitHub 캐시
+    import FinanceDataReader as fdr
+    for sym, fname in (("KS11", "kospi_daily.csv"), ("KQ11", "kosdaq_daily.csv")):
+        try:
+            k = fdr.DataReader(sym, start, end).reset_index()
+            k = k[["Date", "Open", "High", "Low", "Close", "Volume", "Amount"]]
+            k["Date"] = pd.to_datetime(k["Date"]).dt.strftime("%Y-%m-%d")
+            k.to_csv(OUT / fname, index=False, encoding="utf-8-sig")
+        except Exception as e:  # 지수는 선택 자료
+            print(sym, "다운로드 실패:", e)
 
     print(df.groupby("Code")["Date"].agg(["min", "max", "count"]))
 
