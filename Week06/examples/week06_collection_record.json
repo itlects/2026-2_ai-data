@@ -1,0 +1,25 @@
+{
+  "dataset": "네이버 쇼핑 상품 후기 감성 말뭉치 (naver_shopping.txt)",
+  "source_url": "https://raw.githubusercontent.com/bab2min/corpus/master/sentiment/naver_shopping.txt",
+  "got_from": "원 배포처(bab2min)",
+  "license": "Public Domain (bab2min/corpus README, 2026-10-15 확인)",
+  "original_period": "2020.06~2020.07 (배포자 수집)",
+  "collected_at_utc": "2026-10-14T23:06:04+00:00",
+  "raw_md5": "cd029e474cd8724af42244cc1207799d",
+  "raw_rows": 200000,
+  "cleaning_steps": {
+    "원자료": 200000,
+    "② 중복 문장 제외": 199816,
+    "③ 개인정보 의심 제외": 199694,
+    "④ 길이 10~150자": 195423
+  },
+  "sampling": "별점 1·2·4·5 각 75건, groupby.sample(random_state=2026)",
+  "label_rule": "별점 4~5=긍정, 1~2=부정 (사람이 본문을 읽고 붙인 라벨 아님)",
+  "sample_rows": 300,
+  "sample_md5": "826290503dfc1ab898089886d3225ba0",
+  "limitations": [
+    "중립(3점) 없음",
+    "별점과 본문이 어긋나는 후기 존재",
+    "2020년 네이버쇼핑 한정"
+  ]
+}
