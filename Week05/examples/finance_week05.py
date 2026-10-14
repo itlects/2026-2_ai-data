@@ -175,7 +175,7 @@ def check_numbers(ai_text: str, table: pd.DataFrame, tol: float = 0.01) -> pd.Da
     vals = pd.to_numeric(table.select_dtypes("number").stack(), errors="coerce").dropna().values
     allowed = {5, 14, 20, 30, 60, 70, 1, 2, 3, 4}
     out = []
-    for tok in re.findall(r"-?\d[\d,]*\.?\d*", ai_text):
+    for tok in re.findall(r"(?<![A-Za-z\d.])-?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?", ai_text):
         v = float(tok.replace(",", ""))
         if v in allowed:
             status = "기준/기간 숫자"
