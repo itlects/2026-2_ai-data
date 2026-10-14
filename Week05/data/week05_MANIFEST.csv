@@ -1,0 +1,7 @@
+file,bytes,md5,rows
+kosdaq_daily.csv,27675,7c4c4f1afb1040b6fc6341ec901dee2c,431
+kospi_daily.csv,29145,66ebe7648807592e63d1f60af9798c52,431
+krx_daily_000660.csv,55097,abad67214069ccb91bc6ac6c10b29cde,431
+krx_daily_005380.csv,51142,51eb0225596aa947dbd29d2498f19b42,431
+krx_daily_005930.csv,53436,96ad8d18acabe081638ed762a5b1956f,431
+krx_daily_3stocks_raw_ko.csv,159536,f90ebae4fd658f4bd3d2435c7e1b775b,1293

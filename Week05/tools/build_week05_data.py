@@ -66,6 +66,18 @@ def main(marcap_dir: str, start: str, end: str) -> None:
         except Exception as e:  # 지수는 선택 자료
             print(sym, "다운로드 실패:", e)
 
+    # 4) 파일 목록·MD5 (실습 노트북이 Drive 폴더를 찾고 원본과 같은지 확인하는 데 사용)
+    import csv
+    import hashlib
+    with open(OUT / "week05_MANIFEST.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["file", "bytes", "md5", "rows"])
+        for f in sorted(OUT.glob("*.csv")):
+            if f.name == "week05_MANIFEST.csv":
+                continue
+            b = f.read_bytes()
+            w.writerow([f.name, len(b), hashlib.md5(b).hexdigest(), b.decode("utf-8-sig").count("\n") - 1])
+
     print(df.groupby("Code")["Date"].agg(["min", "max", "count"]))
 
 
