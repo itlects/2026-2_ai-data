@@ -18,12 +18,15 @@
 |---|---|
 | `data/krx_daily_3stocks_raw_ko.csv` | 워크북1 입력 · KRX 다운로드 형식(한글 열, 내림차순) · 1,293행 |
 | `data/krx_daily_{005930,000660,005380}.csv` | 종목별 정제본 · 각 431거래일 (2025-01-02 ~ 2026-10-13) |
-| `data/kospi_daily.csv` | KOSPI 지수 일별 (시장 비교 기준선) |
+| `data/kospi_daily.csv`, `data/kosdaq_daily.csv` | KOSPI·KOSDAQ 지수 일별 (시장 비교 기준선, 워크북4) |
 | `data/DATA_SOURCES.md` | 출처·점검 결과·사용 조건·직접 수집 방법 비교 |
 | `colab/Week05_Finance_Data_Analysis_실습.ipynb` | 학생용 (TODO 8곳 채우기, 단계별 기대값 제공) |
 | `colab/Week05_Finance_Data_Analysis_완성.ipynb` | 완성본 (전체 실행 검증 완료, 출력 포함) |
-| `colab/Week05_데이터수집_API가이드.ipynb` | 심화: FinanceDataReader · 공공데이터포털 · KRX Open API 수집 |
+| `colab/Week05_Workbook4_지수종목비교_실습.ipynb` / `_완성.ipynb` | 워크북4: KOSPI·KOSDAQ 지수와 종목 수익률·상관계수·베타 비교 |
+| `colab/Week05_데이터수집_API가이드.ipynb` | 심화: FinanceDataReader · 공공데이터포털(주식·지수) · KRX Open API 수집 |
 | `examples/finance_week05.py` | 노트북 함수 모음 (전처리·지표·AI 숫자 검증) |
+| `examples/official_financial_api.py` | 공공데이터포털 주식·지수 API 수집 스크립트 (인증키 필요) |
+| `workbook/워크북4_공식API_지수종목비교.md` | 워크북4 안내·기대값 |
 | `workbook/week05_workbook_checklist.csv` | 단계별 체크리스트 (기대값 포함) |
 | `workbook/week05_result_table_template.csv` | 워크북2 결과표 양식 |
 | `workbook/week05_ai_verification_template.csv` | 워크북3 AI 검증표 양식 |
@@ -34,6 +37,7 @@
 ## Colab에서 열기
 - 실습본: https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week05/colab/Week05_Finance_Data_Analysis_실습.ipynb
 - 완성본: https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week05/colab/Week05_Finance_Data_Analysis_완성.ipynb
+- 워크북4 실습본: https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week05/colab/Week05_Workbook4_지수종목비교_실습.ipynb
 - API 가이드: https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week05/colab/Week05_데이터수집_API가이드.ipynb
 
 열린 뒤 `파일 → Drive에 사본 저장` 후 `런타임 → 모두 실행`.
@@ -57,6 +61,9 @@
 | SK하이닉스 | 1,443,000 | 1,645,000 | 1,759,550 | 29.7 | 31.4 | 3.74 | 742.9% | −54.7% |
 | 현대차 | 315,000 | 328,700 | 353,075 | 14.7 | 21.9 | 1.34 | 48.9% | −58.0% |
 | KOSPI 지수 | 6,035.35 | – | – | – | – | – | 151.6% | −38.6% |
+| KOSDAQ 지수 | 837.03 | – | – | – | – | – | 21.9% | – |
+
+워크북4 (공통 430일 수익률): KOSPI 대비 베타 삼성전자 1.29 · SK하이닉스 1.58 · 현대차 0.80, 상관계수 0.91 · 0.89 · 0.62.
 
 원본 1,293행 → 정제 1,293행 (결측·중복·OHLC 논리오류·거래량0 모두 0건, 원본은 내림차순이라 정렬 필요).
 
