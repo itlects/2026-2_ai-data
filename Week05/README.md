@@ -19,7 +19,9 @@
 | `data/krx_daily_3stocks_raw_ko.csv` | 워크북1 입력 · KRX 다운로드 형식(한글 열, 내림차순) · 1,293행 |
 | `data/krx_daily_{005930,000660,005380}.csv` | 종목별 정제본 · 각 431거래일 (2025-01-02 ~ 2026-10-13) |
 | `data/kospi_daily.csv`, `data/kosdaq_daily.csv` | KOSPI·KOSDAQ 지수 일별 (시장 비교 기준선, 워크북4) |
+| `data/week05_MANIFEST.csv` | 파일 목록·크기·MD5·행 수 (Drive·업로드 데이터가 원본과 같은지 확인, Drive 폴더 자동 탐색 표식) |
 | `data/DATA_SOURCES.md` | 출처·점검 결과·사용 조건·직접 수집 방법 비교 |
+| `colab/Week05_00_데이터준비_Drive저장.ipynb` | 강의자용: 수업 전 1회 실행 → Drive `강의5주/02_데이터`에 실습 데이터 저장(MD5 확인, ZIP 포함) |
 | `colab/Week05_Finance_Data_Analysis_실습.ipynb` | 학생용 (TODO 8곳 채우기, 단계별 기대값 제공) |
 | `colab/Week05_Finance_Data_Analysis_완성.ipynb` | 완성본 (전체 실행 검증 완료, 출력 포함) |
 | `colab/Week05_Workbook4_지수종목비교_실습.ipynb` / `_완성.ipynb` | 워크북4: KOSPI·KOSDAQ 지수와 종목 수익률·상관계수·베타 비교 |
@@ -41,6 +43,19 @@
 - API 가이드: https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week05/colab/Week05_데이터수집_API가이드.ipynb
 
 열린 뒤 `파일 → Drive에 사본 저장` 후 `런타임 → 모두 실행`.
+
+## 수업 중 데이터 위치 선택 (GitHub / Google Drive / 업로드)
+모든 실습 노트북 0장의 `DATA_SOURCE` 한 줄로 고른다. 어느 경로든 MD5가 같은 파일이므로 기대값이 똑같다.
+
+| 값 | 동작 | 쓰는 상황 |
+|---|---|---|
+| `"auto"` (기본) | GitHub에서 읽고, 실패하면 내 Drive에서 `week05_MANIFEST.csv`가 있는 폴더를 자동으로 찾음 | 평소 |
+| `"drive"` | 내 Drive에 미리 저장한 데이터만 사용 | 수업 중 GitHub 불안정 / 사전 다운로드 데이터로만 진행 |
+| `"upload"` | 내려받아 둔 CSV를 직접 업로드 | Drive 연결이 어려운 학생 |
+| `"github"` | GitHub만 사용 | 원본 확인 |
+
+**준비 (강의자, 수업 전 1회):** `colab/Week05_00_데이터준비_Drive저장.ipynb` 실행 → Drive `강의5주/02_데이터`에 CSV 6개 + `week05_MANIFEST.csv` + `DATA_SOURCES.md` + `week05_data.zip` 저장.
+**학생:** 공유받은 `02_데이터` 폴더를 오른쪽 클릭 → 정리 → **바로가기 추가 → 내 드라이브** → 노트북에서 `DATA_SOURCE = "drive"`.
 
 ## 데이터 받기
 - **방법 A (기본, 키 불필요)** — 노트북이 GitHub에서 바로 읽음
