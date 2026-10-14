@@ -1,0 +1,3 @@
+﻿file,bytes,md5,rows,note
+week06_reviews_300.csv,36901,826290503dfc1ab898089886d3225ba0,300,수업용 표본 (워크북 1~4 입력)
+naver_shopping.txt.gz,7699143,052051d5d0b5adc7b70bf0242c67f9b0,200000,"원자료 미러, 압축 해제 MD5=cd029e474cd8724af42244cc1207799d"
