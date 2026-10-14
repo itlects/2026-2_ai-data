@@ -8,11 +8,18 @@
 | `krx_daily_005930.csv` | 삼성전자 OHLCV + 거래대금·시가총액·상장주식수 | 431 | 같음 | 워크북 2·3 |
 | `krx_daily_000660.csv` | SK하이닉스 | 431 | 같음 | 워크북 2·3 |
 | `krx_daily_005380.csv` | 현대차 | 431 | 같음 | 워크북 2·3 |
-| `kospi_daily.csv` | KOSPI 지수 일별(시가·고가·저가·종가·거래량·거래대금) | 431 | 같음 | 시장 대비 비교(선택) |
+| `kospi_daily.csv` | KOSPI 지수 일별(시가·고가·저가·종가·거래량·거래대금) | 431 | 같음 | 시장 대비 비교, 워크북 4 |
+| `kosdaq_daily.csv` | KOSDAQ 지수 일별 | 431 | 같음 | 워크북 4 |
+| `week05_MANIFEST.csv` | 위 파일들의 크기·MD5·행 수 | – | – | 노트북이 Drive 폴더를 찾고 원본과 같은지 확인 |
+
+## Google Drive에 저장된 데이터로 수업하기
+- Drive `강의5주/02_데이터`에 같은 파일이 있다. 노트북 0장에서 `DATA_SOURCE = "drive"`로 바꾸면 Drive 데이터를 쓴다(학생은 공유 폴더를 '내 드라이브에 바로가기 추가' 후 사용).
+- `krx_daily_3stocks_raw_ko.csv`가 폴더에 없으면 노트북이 종목별 CSV 3개로 **같은 파일을 다시 만들고** MD5로 원본과 동일한지 확인한다.
+- Drive 연결이 어려우면 `DATA_SOURCE = "upload"`로 CSV와 `week05_MANIFEST.csv`를 직접 업로드한다.
 
 ## 원 출처
 - 종목 시세: 한국거래소 정보데이터시스템 [전종목 시세](http://data.krx.co.kr) → 이를 매일 정리해 공개하는 [FinanceData/marcap](https://github.com/FinanceData/marcap) 저장소의 `marcap-2025.parquet`, `marcap-2026.parquet`에서 3종목만 추출
-- KOSPI 지수: FinanceDataReader `fdr.DataReader('KS11')` (FinanceData/fdr_krx_data_cache GitHub 캐시)
+- KOSPI·KOSDAQ 지수: FinanceDataReader `fdr.DataReader('KS11')`, `fdr.DataReader('KQ11')` (FinanceData/fdr_krx_data_cache GitHub 캐시)
 - 추출 스크립트: `Week05/tools/build_week05_data.py` (누구나 같은 결과를 재생성 가능)
 - 추출일: 2026-10-15 (KST)
 
