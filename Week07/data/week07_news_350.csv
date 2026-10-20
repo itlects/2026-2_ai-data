@@ -1,0 +1,351 @@
+﻿news_id,category,title,date,url,guid
+N001,정치,박주선 정부 공무원 배치계획 따라 예비비 동의여부 결정,2017-07-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0009423185,ynat-v1_train_04657
+N002,IT과학,삼성 23일 갤노트10 70개국 출시…9월 130개국으로 확대,2019-08-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0011032308,ynat-v1_train_05418
+N003,생활문화,연천 영하 19.1도…경기북부 오후부터 강추위 풀려,2018-01-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009845478,ynat-v1_train_39742
+N004,세계,민주콩고서 폭우로 인한 잇단 산사태로 13명 숨져,2019-04-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010797906,ynat-v1_train_37551
+N005,생활문화,팩트체크 프레디 머큐리는 정말 공항서 수하물을 날랐나,2018-12-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0010506378,ynat-v1_train_27397
+N006,스포츠,맨유 린가드와 2021년까지 재계약…주급 1억4천만원까지 예상,2017-04-07,https://sports.news.naver.com/news.nhn?oid=001&aid=0009170079,ynat-v1_train_20607
+N007,IT과학,다산네트웍스 차세대 모바일 백홀 표준인증 획득,2016-06-28,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0008502224,ynat-v1_train_19184
+N008,사회,유방암·조현병 영향 단백질 제한 방법 발견,2016-09-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0008697653,ynat-v1_train_03250
+N009,경제,산업계 만난 이주열 제조업 경쟁력 제고 우리경제 생존 문제,2019-02-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0010642441,ynat-v1_train_01502
+N010,정치,靑 北 하루 추가 체류 제안…우리 사정 때문에 못 받았다종합,2018-09-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010359529,ynat-v1_train_25067
+N011,경제,한국투자 정유업종 1분기 깜짝 실적 가시화,2016-03-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0008280344,ynat-v1_train_17037
+N012,IT과학,인류학 뒤흔들 호모 날레디…300만년 아닌 2030만년전 생존,2017-04-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0009220668,ynat-v1_train_18575
+N013,생활문화,동물 산 여성…가을에 즐기는 이색 테마 영화제,2017-09-14,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0009544363,ynat-v1_train_42516
+N014,생활문화,르 클레지오 국경 뛰어넘는 문학은 가장 전위적인 예술,2017-05-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0009264942,ynat-v1_train_27405
+N015,생활문화,산천어 낚시에 푹∼ 빠진 어린이 강태공,2018-01-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0009825275,ynat-v1_train_23586
+N016,정치,安 공직자 이해충돌 방지 담은 김영란법 개정안 발의종합,2016-08-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008579027,ynat-v1_train_14485
+N017,스포츠,한 시즌 20골 눈앞 손흥민의 득점 본능 한계를 넘어라,2017-04-16,https://sports.news.naver.com/news.nhn?oid=001&aid=0009191717,ynat-v1_train_19618
+N018,사회,양승동 KBS 사장 후보자와 악수하는 신상진 위원장,2018-03-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0009993034,ynat-v1_train_39370
+N019,사회,올해 처음 중국 제외한 외국인 관광객 1천만명 넘을 것,2018-06-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0010173874,ynat-v1_train_02957
+N020,경제,ECB 금리동결…적어도 연말까지 금리 유지종합,2019-04-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0010754971,ynat-v1_train_17296
+N021,사회,올림픽 취재 기자 기다리는 메인 프레스센터,2018-01-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=257&oid=001&aid=0009845984,ynat-v1_train_10141
+N022,생활문화,경기 북부권 8개 시·군 오존주의보 두시간만에 해제종합,2018-06-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0010134845,ynat-v1_train_13592
+N023,정치,여야 국회정상화 합의 막판 불발…패스트트랙 안건처리 이견종합3보,2019-06-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010863731,ynat-v1_train_35732
+N024,사회,LGU 증거인멸 우려 있어 사전 통보 없이 조사,2016-06-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0008449859,ynat-v1_train_12141
+N025,생활문화,폭염도시 대구 온열 질환자가 전국에서 가장 적은 이유는,2017-08-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009464882,ynat-v1_train_29590
+N026,세계,체코 태권소녀 한국 전지훈련 꿈 이뤘다,2016-07-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0008517831,ynat-v1_train_01167
+N027,세계,리비아 휴전 유엔 결의안 진통…미국·러시아 반대,2019-04-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010773618,ynat-v1_train_03029
+N028,생활문화,게시판 천호식품 공식 쇼핑몰 리뉴얼 기념 이벤트,2016-03-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0008271135,ynat-v1_train_01766
+N029,정치,국정감사 참석한 김동연 부총리,2018-10-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010408837,ynat-v1_train_26507
+N030,정치,기재부 2차관과 인사하는 심재철,2018-10-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0010409417,ynat-v1_train_30989
+N031,정치,한국 비대위 구성 완료…김병준 11명까지 추가 가능종합,2018-07-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010230688,ynat-v1_train_31984
+N032,스포츠,중국전 앞둔 허재 감독 높이 부담되지만 수비로 승부수,2018-06-26,https://sports.news.naver.com/news.nhn?oid=001&aid=0010172571,ynat-v1_train_07790
+N033,스포츠,MLB 게릿 콜 역대 두 번째 3경기 연속 14탈삼진 이상,2019-09-09,https://sports.news.naver.com/news.nhn?oid=001&aid=0011071853,ynat-v1_train_35168
+N034,생활문화,충북 한파주의보 해제…유원지 주말 나들이객 발길 이어져,2016-12-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0008881342,ynat-v1_train_44123
+N035,세계,여론조사업체 유고브 영국 국민투표서 52% EU 잔류 선택 예측1보,2016-06-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0008494416,ynat-v1_train_40187
+N036,정치,北 마라톤 선수단 올림픽 참가 자격위해 부정행위,2016-05-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0008399960,ynat-v1_train_02124
+N037,IT과학,네이버 동영상 위주로 서비스 전면 개편,2019-01-31,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0010612671,ynat-v1_train_28982
+N038,세계,美정부 연일 中화웨이 공격…5G장비 구축 LGU 곤혹,2019-02-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0010632743,ynat-v1_train_20800
+N039,IT과학,게시판 전파연구원 전파시험 서비스 시작,2019-12-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0011283848,ynat-v1_train_23771
+N040,스포츠,타자 류현진 범가너 상대로 볼넷…개인 통산 9번째,2019-04-03,https://sports.news.naver.com/news.nhn?oid=001&aid=0010737401,ynat-v1_train_24940
+N041,사회,평창동계올림픽 메인프레스센터 개관,2018-01-31,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0009849572,ynat-v1_train_31842
+N042,경제,한컴그룹 중국 디지털 출판·교육시장 진출,2016-07-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0008556889,ynat-v1_train_08853
+N043,세계,브라질 예루살렘에 무역사무소 설치 발표…친이스라엘 행보,2019-04-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010730964,ynat-v1_train_44049
+N044,세계,민주콩고 가톨릭 대선 승자 안다…선관위에 진실 발표 촉구,2019-01-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010563010,ynat-v1_train_32627
+N045,세계,이라크 시위 사망자 40여명…시아파 지도자 정부 비판종합2보,2019-10-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0011122995,ynat-v1_train_14012
+N046,세계,파키스탄 총리 이란사우디 연속 방문…중재 역할,2019-10-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0011138488,ynat-v1_train_39354
+N047,IT과학,중력파 검출 발표 1주년…국내 연구환경 여전히 열악,2017-02-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0009044368,ynat-v1_train_18751
+N048,스포츠,포체티노 선덜랜드전 무승부에 선두 첼시 추격 기회 놓쳐,2017-02-01,https://sports.news.naver.com/news.nhn?oid=001&aid=0008998211,ynat-v1_train_41069
+N049,생활문화,신간 도 길을 가며 길을 묻다,2018-09-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0010359951,ynat-v1_train_33221
+N050,스포츠,여자농구 우리은행 vs KB 9일 시즌 세 번째 맞대결,2018-12-07,https://sports.news.naver.com/news.nhn?oid=001&aid=0010512035,ynat-v1_train_21714
+N051,정치,유승민 탈당·무소속 출마 선언 전문…정의를 위해 출마,2016-03-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008276627,ynat-v1_train_01580
+N052,사회,화재로 선양에 긴급착륙 北여객기 아직 운항 못해,2016-07-28,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0008570632,ynat-v1_train_26147
+N053,세계,美 항공사 쿠바 취항 신청 이어져…최소 8곳 신청,2016-03-16,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=232&oid=001&aid=0008257915,ynat-v1_train_36054
+N054,IT과학,유튜브서 생중계 동영상도 360도로 본다…현장감↑종합,2016-04-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0008343486,ynat-v1_train_26370
+N055,세계,두바이 여객기 추락 사고 조종간 동결이 원인일 수도,2016-03-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0008273138,ynat-v1_train_04558
+N056,IT과학,삼성 갤럭시S9 사전 체험존에 5일간 160만명 방문,2018-03-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009935602,ynat-v1_train_13531
+N057,세계,교황 이슬람 발상지서 첫 미사 집전…17만명 운집,2019-02-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010619347,ynat-v1_train_44776
+N058,사회,세월호 단체 참사 왜곡보도 책임 언론인 명단 공개,2019-09-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0011078275,ynat-v1_train_35624
+N059,사회,제62회 신문의 날 기념세미나,2018-04-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010004599,ynat-v1_train_21025
+N060,스포츠,휴스턴 에이스 벌랜더 18승째…MLB 전체 ERA 2위로 상승,2019-09-08,https://sports.news.naver.com/news.nhn?oid=001&aid=0011070308,ynat-v1_train_17212
+N061,경제,QA 오늘부터 9억원 넘는 주택으로 대출받으면 강화된 DSR 규제,2019-12-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0011293733,ynat-v1_train_26961
+N062,세계,中관영매체 연일 대미 집중포화…우리는 끝까지 싸울 것,2019-05-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0010825875,ynat-v1_train_20525
+N063,IT과학,빛에 응답하라 광응답성 높은 광검출기 개발,2016-05-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0008428917,ynat-v1_train_45356
+N064,스포츠,포체티노 토트넘 감독 주전들에 자극 줄 선수 필요,2017-08-02,https://sports.news.naver.com/news.nhn?oid=001&aid=0009449048,ynat-v1_train_04876
+N065,생활문화,신간 걸프를 알다·두려움 없는 출산,2018-10-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0010427431,ynat-v1_train_22971
+N066,IT과학,이용자별 취향·필요에 맞게…네이버 맞춤형 AI검색 도입종합,2018-02-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0009911319,ynat-v1_train_37847
+N067,생활문화,지리산에 올해 첫눈…작년보다 1주일 일러,2017-11-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0009705445,ynat-v1_train_34693
+N068,경제,오늘부터 기업은행에서 연 2% 이하 자영업자 대출,2019-01-31,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0010613680,ynat-v1_train_37366
+N069,스포츠,김태균 결승 홈런…2위 한화 이틀 연속 선두 두산 제압,2018-05-23,https://sports.news.naver.com/news.nhn?oid=001&aid=0010103161,ynat-v1_train_26701
+N070,세계,터키 시리아 접경서 국적 불명 무인기 격추,2019-09-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0011110276,ynat-v1_train_14723
+N071,스포츠,정운찬 KBO총재 국제야구연맹 회장과 프리미어 12 개최 논의,2018-09-13,https://sports.news.naver.com/news.nhn?oid=001&aid=0010341003,ynat-v1_train_41679
+N072,생활문화,벌써 여름 최고 33도 폭염…더위 피해 바다로 산으로,2016-05-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0008417847,ynat-v1_train_09000
+N073,IT과학,갤럭시 폴드 다음달 출시할 듯…통신사 망연동 테스트 돌입,2019-05-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0010825418,ynat-v1_train_33753
+N074,IT과학,나노와이어 가공 신기술로 유연소자 효율 높인다,2017-02-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0009054724,ynat-v1_train_12108
+N075,사회,게시판 미래부 기술사업화 경진대회 개최,2016-10-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0008744155,ynat-v1_train_16297
+N076,정치,녹색 지갑 고르는 민주평화당 의원들,2018-02-08,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0009870393,ynat-v1_train_16756
+N077,스포츠,벤투호 승선 이진현 31라운드 MVP 겹경사,2018-10-04,https://sports.news.naver.com/news.nhn?oid=001&aid=0010377588,ynat-v1_train_05674
+N078,정치,靑 대통령 겨냥했다 판단…각종 의혹에 단호대응,2016-07-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0008550993,ynat-v1_train_17924
+N079,정치,문 대통령 페북에 자원봉사자 여러분 사랑합니다,2018-02-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0009860263,ynat-v1_train_26926
+N080,경제,작년 상호변경 상장사 98곳…44% 증가,2016-01-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0008144106,ynat-v1_train_32867
+N081,경제,ECB 금리동결…적어도 연말까지 금리 유지2보,2019-04-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0010754943,ynat-v1_train_36417
+N082,정치,정부 여신심사 가이드라인 영향 최소화종합,2016-04-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260&oid=001&aid=0008336928,ynat-v1_train_34776
+N083,정치,북한 건군절 70주년 기념 열병식,2018-02-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0009875412,ynat-v1_train_32247
+N084,사회,아모레퍼시픽 소비자단체와 이해관계자 포럼 열어,2018-02-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263&oid=001&aid=0009887520,ynat-v1_train_22507
+N085,정치,평양 인근 규모 2.2 인공지진…핵실험 아니고 발파 작업추정종합,2016-03-16,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0008258595,ynat-v1_train_24008
+N086,경제,은행 연체율 0.36%…2014년 통계개편후 최저,2018-01-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0009845440,ynat-v1_train_23970
+N087,사회,22일부터 저소득층 이통요금 1만1천원 추가감면,2017-12-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0009740711,ynat-v1_train_23565
+N088,사회,상습 체납차량 단속 나왔습니다,2019-05-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=257&oid=001&aid=0010839715,ynat-v1_train_40796
+N089,경제,코스피 상승 마감…2010선 회복1보,2019-01-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0010562557,ynat-v1_train_39487
+N090,세계,佛 정부대변인 브렉시트 추가연기 누구에게도 이익 안돼,2019-10-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0011158379,ynat-v1_train_17310
+N091,세계,WP 트럼프 대통령이 올해 가장 잘못한 일은 쿠르드 배신,2019-12-31,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=232&oid=001&aid=0011307011,ynat-v1_train_20472
+N092,정치,朴대통령 임명장 수여로 8일 만에 공식일정 재개,2016-11-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0008831943,ynat-v1_train_23435
+N093,세계,이집트서 엘시시 장기집권 개헌안 통과…아랍의봄 역행,2019-04-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010782459,ynat-v1_train_31524
+N094,정치,국회 운영위 패스트트랙 책임공방…불법사보임vs檢수사부터,2019-10-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0011169487,ynat-v1_train_01064
+N095,정치,문대통령 빠른 종전선언 바람직하다는 데 대체로 공감대,2018-09-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0010363680,ynat-v1_train_03333
+N096,경제,카카오페이 2분기 거래액 4천600억…가입자 1천680만명,2017-08-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0009465801,ynat-v1_train_05701
+N097,세계,獨정부 아우토반에 지능적 메커니즘 있어…속도제한 부정적,2019-01-29,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0010606728,ynat-v1_train_10219
+N098,사회,민주노총 총파업 대회,2019-07-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=257&oid=001&aid=0010963281,ynat-v1_train_11830
+N099,세계,이란 IAEA 美 행정부처 아냐…이란 핵사찰 美개입 경고,2019-09-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0011073594,ynat-v1_train_20248
+N100,경제,이주열 통화정책 완화정도 추가 조정 필요,2018-06-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0010158879,ynat-v1_train_18358
+N101,경제,SK루브리컨츠 상장 위한 공모 개시…최대 1조5천억원 규모,2018-04-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0010001596,ynat-v1_train_27787
+N102,경제,한국카본 필리핀에 100억원대 수출 계약,2016-01-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0008130424,ynat-v1_train_12625
+N103,정치,북한 목선 인양준비 작업,2019-09-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=257&oid=001&aid=0011092570,ynat-v1_train_40664
+N104,세계,이란 美드론 호르무즈해협 근처 이란 영공서 정보 수집종합,2019-06-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010904768,ynat-v1_train_37391
+N105,사회,이효성 방통위 위원장 KBS 현장방문,2018-06-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010152868,ynat-v1_train_37928
+N106,스포츠,남자농구 대표팀 6월 일본과 두 차례 평가전,2018-04-20,https://sports.news.naver.com/news.nhn?oid=001&aid=0010037179,ynat-v1_train_17393
+N107,정치,자고나면 한 명씩 느는 예비후보…열기 달아오르는 서부산,2016-01-29,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008153108,ynat-v1_train_45346
+N108,IT과학,2035년 설엔 한국형 위성항법시스템이 길 안내한다,2018-02-16,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0009895800,ynat-v1_train_45375
+N109,스포츠,여자농구 양강 우리은행KB 16일 시즌 첫 맞대결,2018-11-15,https://sports.news.naver.com/news.nhn?oid=001&aid=0010469511,ynat-v1_train_01107
+N110,경제,홈플러스 올해 풋살파크 이용객 110만명 예상…마트 매출도↑,2018-09-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263&oid=001&aid=0010316162,ynat-v1_train_01001
+N111,사회,시진핑 세계군인체육대회 참가 지도자 접견…협력 계기 되길,2019-10-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0011154052,ynat-v1_train_15270
+N112,스포츠,현대캐피탈의 승리 문성민·전광인의 부상 투혼 있었기에,2019-03-16,https://sports.news.naver.com/news.nhn?oid=001&aid=0010698854,ynat-v1_train_39204
+N113,스포츠,이재영 박정아에게 판정승…흥국생명 2연승 질주,2019-12-12,https://sports.news.naver.com/news.nhn?oid=001&aid=0011273481,ynat-v1_train_12949
+N114,사회,게시판 NHN엔터 기술부문 경력사원 공채,2018-04-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230&oid=001&aid=0010034043,ynat-v1_train_31543
+N115,경제,한화케미칼 종속회사 한화큐셀앤드첨단소재 분할후 합병종합,2019-07-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0010991939,ynat-v1_train_16780
+N116,경제,라인 해외 상장 1조원대 스톡옵션 대박 터지나종합,2016-06-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0008445694,ynat-v1_train_40134
+N117,사회,게시판 중진공 온라인수출 애로해소 교육,2018-11-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263&oid=001&aid=0010483728,ynat-v1_train_01274
+N118,경제,다시 반등한 코스피 2380선 회복…코스닥은 강보합종합,2018-02-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0009884593,ynat-v1_train_14701
+N119,IT과학,5G 시대 ②접었다 펴는 폴더블폰 내년 상반기 본격 등장,2018-12-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0010543850,ynat-v1_train_43799
+N120,IT과학,감성은 전통 손목시계 기능은 보다 스마트하게…기어S3 공개,2016-09-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230&oid=001&aid=0008654890,ynat-v1_train_43360
+N121,생활문화,윤호근 국립오페라단장 단체 정상화 시급…한국오페라도 개발,2018-03-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0009982730,ynat-v1_train_06550
+N122,세계,일대일로 참여한 伊 세계 최대 쌀 생산지 中에 쌀 수출,2019-04-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0010738425,ynat-v1_train_31806
+N123,세계,사이버 총력전 러 정부 범죄자까지 해커부대에 편입,2016-12-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=232&oid=001&aid=0008925952,ynat-v1_train_14819
+N124,IT과학,2040년 과학기술 청사진 나왔다…4차 과기기본계획 의결,2018-02-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0009916466,ynat-v1_train_39402
+N125,정치,문대통령 한·필리핀 핵심파트너 두테르테 진정한 친구,2018-06-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0010128103,ynat-v1_train_28272
+N126,사회,경찰 손석희 폭행혐의 내사…사실무근 취업청탁 협박받아종합,2019-01-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010600494,ynat-v1_train_14978
+N127,세계,日언론 아베 연내 방중 조율…중일 정상 상호방문 정착 꾀해,2019-05-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0010821120,ynat-v1_train_28155
+N128,경제,국내 주식형 펀드 나흘 만에 자금 순유입,2018-07-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0010202468,ynat-v1_train_23828
+N129,경제,신한금투 롯데칠성 4분기 흑자전환 전망,2016-01-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0008107995,ynat-v1_train_44035
+N130,정치,평양정상회담 일정 브리핑하는 청와대 춘추관장,2018-09-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0010351457,ynat-v1_train_40657
+N131,경제,금융당국 중도금대출 현장점검…강남재건축 집중 모니터링,2016-07-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260&oid=001&aid=0008514690,ynat-v1_train_39385
+N132,정치,朴대통령 북핵압박 외교중에 北도발…고강도 北옥죄기 전망,2016-09-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0008676588,ynat-v1_train_22491
+N133,세계,폼페이오 국무부 탄핵조사 서류 요청에 응했다종합,2019-10-06,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0011123911,ynat-v1_train_23327
+N134,스포츠,왕웨이중 6이닝 6피안타 4실점…NC 5연패 위기,2018-05-24,https://sports.news.naver.com/news.nhn?oid=001&aid=0010105979,ynat-v1_train_05274
+N135,사회,그래픽 6·13 지방선거 주요 일정,2018-05-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0010081785,ynat-v1_train_00782
+N136,생활문화,덴마크 팝스타 크리스토퍼 6월 첫 단독 내한공연,2019-04-17,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0010769692,ynat-v1_train_14281
+N137,생활문화,가뭄 지속 충남 곳곳 불볕더위…아산 오존주의보,2017-06-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009345009,ynat-v1_train_44559
+N138,IT과학,LG G6 삼성 갤S8 제치고 바이럴 영상 1위,2017-03-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0009129175,ynat-v1_train_16424
+N139,경제,거래소 CJ ENM에 덱스터 인수설 조회공시 요구,2019-01-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0010574656,ynat-v1_train_16760
+N140,사회,네이버 개인정보 유출 수습하며 읽은 메일까지 일괄 삭제,2019-05-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0010800210,ynat-v1_train_04382
+N141,생활문화,주말 N 여행 호남권 달빛 벗 삼아 걸어라…한낮 폭염 피해 즐기는 꿀잼 야행,2018-08-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0010262382,ynat-v1_train_42842
+N142,생활문화,위력적인 강풍 부러지며 보행로 덮친 나무,2019-09-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=257&oid=001&aid=0011069527,ynat-v1_train_05066
+N143,스포츠,오타니 팔꿈치 재활 훈련 마쳐…2020시즌 투타 겸업,2019-12-20,https://sports.news.naver.com/news.nhn?oid=001&aid=0011289062,ynat-v1_train_33040
+N144,스포츠,이상범 감독 김주성 지도자 되려면 이름 쓰레기통에 버려라,2018-12-25,https://sports.news.naver.com/news.nhn?oid=001&aid=0010544207,ynat-v1_train_43440
+N145,세계,이란 日 美호르무즈 연합 불참하고 자위대함 파견 긍정적,2019-10-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0011158213,ynat-v1_train_23709
+N146,사회,중앙선관위원장 참여하는 국민만이 힘 발휘할 수 있어,2016-04-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008326002,ynat-v1_train_19498
+N147,스포츠,추신수 15시즌 만에 MLB 통산 1천500안타 달성,2019-04-05,https://sports.news.naver.com/news.nhn?oid=001&aid=0010743255,ynat-v1_train_24516
+N148,정치,최재성 사드 문제 미온적 대응은 野 역할 방기,2016-02-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0008203027,ynat-v1_train_02830
+N149,경제,대기업 상장사 68% 배당…평균수익률 국고채와 비슷,2016-04-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0008302410,ynat-v1_train_30010
+N150,정치,문재인 전북서 세 확장…모임 6개연대 새로운 전북포럼 출범,2017-02-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0009022646,ynat-v1_train_15474
+N151,경제,게시판 DB금융투자 금융소득종합과세 등 무료 신고대행,2019-04-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0010771644,ynat-v1_train_06930
+N152,IT과학,특허 괴물 퀄컴에 제동…휴대전화 가격 영향은종합,2016-12-28,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0008920778,ynat-v1_train_27727
+N153,생활문화,대구·경북 강추위 계속…일요일 최강 한파,2016-01-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0008135733,ynat-v1_train_22597
+N154,사회,게시판 투교협 수능 뒤 고3생에 금융특강 희망학교 모집,2016-10-17,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0008757358,ynat-v1_train_36554
+N155,생활문화,명사와 함께 떠나는 한식·인문학 여행,2019-04-29,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0010793693,ynat-v1_train_32727
+N156,스포츠,평창올림픽 참가 북한 대표단 숙박지·이동 경로 어디로,2018-01-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0009808524,ynat-v1_train_23902
+N157,생활문화,첼리스트 송영훈 베토벤·슈만으로 3년만에 독주회,2017-02-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0009029924,ynat-v1_train_14482
+N158,스포츠,K리그2 부산 EPL 경험한 베테랑 공격수 맥도날드 영입,2018-07-05,https://sports.news.naver.com/news.nhn?oid=001&aid=0010191418,ynat-v1_train_16421
+N159,생활문화,극단 달나무 여수·완도 섬에서 환상 음악극 공연,2017-08-28,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0009502193,ynat-v1_train_42936
+N160,사회,박범계 검경 수사권 조정안 발의…경찰에 수사종결권 부여,2018-01-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0009795817,ynat-v1_train_15476
+N161,정치,새누리 이르면 7일 총선후보 접수 공고종합,2016-02-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008172239,ynat-v1_train_14476
+N162,IT과학,KIST·건국대 AI 바이러스 검출 키트 개발…민감도 10배,2018-05-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0010061368,ynat-v1_train_23034
+N163,세계,쿠슈너 팔레스타인 美 자금지원 받으면 평화안 수용해야,2019-06-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010913345,ynat-v1_train_37508
+N164,IT과학,처음 중력파 발견소식 들었을 때 나도 안 믿어종합,2016-02-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230&oid=001&aid=0008181663,ynat-v1_train_15469
+N165,사회,GPS교란 사흘째…동·서해 어선조업·여객선운항 정상,2016-04-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0008301221,ynat-v1_train_40084
+N166,IT과학,위클리 스마트 비선실세 국정농단 정확히 통역하는 앱은,2017-01-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0008976585,ynat-v1_train_23470
+N167,정치,미래부 차은택 창조경제추진단장 임명 지시 없었다,2016-11-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0008824883,ynat-v1_train_23091
+N168,정치,朴대통령 이탈리아 총리와 정상회담…북핵공조·경협확대,2016-09-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0008665777,ynat-v1_train_28273
+N169,세계,사우디 국방차관 예멘반군 휴전제안 긍정적…단 이란 제외,2019-10-06,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0011123908,ynat-v1_train_05923
+N170,생활문화,내일날씨 우산 준비하세요…전국에 비 기온 평년 아래로,2018-04-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009999664,ynat-v1_train_26042
+N171,세계,빵값 시위로 촉발된 바시르 수단 대통령의 몰락,2019-04-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010757770,ynat-v1_train_22295
+N172,사회,SK브로드밴드 신학기 맞이 신규고객 대상 경품행사,2019-02-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0010627030,ynat-v1_train_07336
+N173,정치,청문회 국회법 논란 ② 20대 재의결·자동폐기 시비,2016-05-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008427899,ynat-v1_train_25789
+N174,생활문화,신간 우물쭈물하다 끝난 교사 이야기,2018-09-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0010328849,ynat-v1_train_33272
+N175,생활문화,게시판 교보문고 7월 수요낭독공감,2018-07-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0010202986,ynat-v1_train_12787
+N176,IT과학,KT 갤럭시J7 오늘 단독 출시…최저 5만원대 구매가능,2017-07-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009423050,ynat-v1_train_20779
+N177,스포츠,애타는 류중일 LG 감독 두산전 무승 팬들께 죄송,2018-07-31,https://sports.news.naver.com/news.nhn?oid=001&aid=0010244535,ynat-v1_train_06240
+N178,사회,SW융합클러스터 2.0 지원 인천·부산·울산·경남·충남 확정,2019-04-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0010780912,ynat-v1_train_17620
+N179,생활문화,강진군 영랑생가 그림 기부 환영합니다,2016-08-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0008592419,ynat-v1_train_36824
+N180,경제,코스맥스 1분기 영업익 104억원…10.6% 증가,2018-05-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263&oid=001&aid=0010078168,ynat-v1_train_03920
+N181,생활문화,어제보다 더워요…낮 최고 서울 29도·대구 31도,2016-05-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0008408946,ynat-v1_train_35021
+N182,경제,오늘의 투자전략 중장기적 지수 방향성은 긍정적,2017-04-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0009199999,ynat-v1_train_43803
+N183,세계,KT 홍콩 MVI와 아시아·중동 호텔 AI서비스 사업 협력,2019-02-17,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230&oid=001&aid=0010639081,ynat-v1_train_29476
+N184,사회,신산업분야 先허용後규제 행정규제기본법 모레부터 시행,2019-07-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010954750,ynat-v1_train_05270
+N185,생활문화,베스트셀러 한국서도 피터슨 열풍 부나,2018-11-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0010457495,ynat-v1_train_18174
+N186,IT과학,LGU 유럽 최대 통신사 보다폰과 전략적 파트너십,2017-06-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0009313304,ynat-v1_train_23937
+N187,스포츠,MLB닷컴 올스타전 예상 명단 발표…류현진은 없네,2019-05-17,https://sports.news.naver.com/news.nhn?oid=001&aid=0010831373,ynat-v1_train_07237
+N188,스포츠,KT 리우 올림픽 출전선수 초청 팬사인회,2016-07-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0008532399,ynat-v1_train_41128
+N189,세계,러시아 항공사도 보잉 737 맥스 여객기 잠정 운항 중단종합,2019-03-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010693279,ynat-v1_train_37950
+N190,사회,이효성 방통위원장PP업계 대표자 간담회,2018-04-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010006798,ynat-v1_train_28244
+N191,세계,수단 의회 국가비상사태 승인…반정부시위 재판 임시법원 설치,2019-03-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010690202,ynat-v1_train_34209
+N192,IT과학,두산로보틱스 송칭과 협동로봇 대리점 계약,2019-12-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0011276636,ynat-v1_train_29579
+N193,사회,여가부 미투 선정적 보도로 2차 피해…언론 모니터링하겠다,2018-03-28,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0009987332,ynat-v1_train_27622
+N194,정치,문대통령 어제는 삼성 氣살리고 오늘은 쌍용차 문제 해결 행보,2018-07-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010202247,ynat-v1_train_36243
+N195,IT과학,KT 빅데이터 기반 관광분석솔루션 GS인증 획득,2017-09-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0009539026,ynat-v1_train_19301
+N196,IT과학,한국형발사체 2018년 10월 시험발사…10개월 연기,2016-12-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0008908079,ynat-v1_train_13168
+N197,스포츠,MSN 화력 폭발 바르사 빌바오 꺾고 국왕컵 8강행종합,2017-01-12,https://sports.news.naver.com/news.nhn?oid=001&aid=0008953108,ynat-v1_train_39684
+N198,IT과학,세 가지 색상의 갤럭시S8,2017-03-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009122041,ynat-v1_train_05409
+N199,정치,北 선군절 맞아 김정일 띄우기…국보 중의 국보,2016-08-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0008640784,ynat-v1_train_20822
+N200,정치,문 대통령 누구도 4·3 폄훼 안돼…정부가 책임있게 해나갈것,2018-04-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010001358,ynat-v1_train_14805
+N201,스포츠,호주 아널드 감독 아시안컵이 코앞…한국전 친선경기 아냐,2018-11-16,https://sports.news.naver.com/news.nhn?oid=001&aid=0010472742,ynat-v1_train_04825
+N202,정치,새 피 수혈하고 당무감사 끝내고…총선준비 시동 건 한국당종합,2019-10-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0011179195,ynat-v1_train_44487
+N203,사회,작가회의 이사장에 소설가 이경자…성폭력 단호히 대처할 것,2018-02-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0009878880,ynat-v1_train_18263
+N204,사회,방통위 인터넷시장 조사 이통사 단체에 맡겨…불공정 우려종합,2018-02-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0009917404,ynat-v1_train_30829
+N205,경제,그래픽 포스코 3분기 실적,2019-10-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0011166186,ynat-v1_train_33034
+N206,경제,조선업 회복 열쇠 올해도 LNG선…해양일감 공백 채울까,2019-01-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0010555525,ynat-v1_train_17973
+N207,생활문화,공연소식 청년예술인의 유쾌한 도전 연극 끝까지 간다 外,2019-12-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0011288964,ynat-v1_train_43046
+N208,생활문화,전국 맑고 포근한 가을…강원 영동 오후부터 비,2016-10-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0008759576,ynat-v1_train_33594
+N209,사회,한상혁 신임 방통위원장의 취임사,2019-09-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0011073603,ynat-v1_train_40063
+N210,스포츠,아시안게임 조별리그 사이 미니 휴식기…허재號 컨디션...,2018-08-16,https://sports.news.naver.com/news.nhn?oid=001&aid=0010274771,ynat-v1_train_25459
+N211,생활문화,경기도 4개 시·군 폭염주의보 이틀 만에 해제,2016-06-29,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0008507128,ynat-v1_train_39376
+N212,정치,한국당 설 연휴 끝나자마자 관제개헌 불가 대여 공세,2018-02-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0009902698,ynat-v1_train_25876
+N213,세계,미국산 쇠고기 EU수출 대폭 확대…대서양 무역갈등 잦아드나,2019-08-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=232&oid=001&aid=0010999945,ynat-v1_train_20141
+N214,IT과학,네이버 인공지능 아이디어 사업화 돕는다…AI 스타톤 개최,2019-07-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0010975792,ynat-v1_train_37292
+N215,정치,평양정상회담 노무현 전 대통령 사진 걸린 민주당에서 중계 시청,2018-09-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010349217,ynat-v1_train_26925
+N216,IT과학,구글 LG·삼성과 협력…G6 한국어 AI는 아직종합,2017-03-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0009077347,ynat-v1_train_08718
+N217,생활문화,한국에 상륙한 팝컬처의 향연…코믹콘 서울 열려종합,2017-08-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0009455139,ynat-v1_train_42604
+N218,정치,브리핑룸 들어오는 이효성 위원장,2019-05-14,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010823795,ynat-v1_train_03257
+N219,생활문화,전국에 낮까지 봄비…낮 최고 12∼21도,2017-04-06,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009166626,ynat-v1_train_42921
+N220,세계,日방위상 대북 감시강화 관련 한중러에 한층 연대 호소,2019-06-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0010862277,ynat-v1_train_26398
+N221,생활문화,아침엔 쌀쌀 낮엔 포근…대구경북 미세먼지 일시 나쁨,2017-03-17,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009114216,ynat-v1_train_32940
+N222,IT과학,아이폰X 국내 출고가 64GB 142만원·256GB 163만원 확정종합,2017-11-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009650979,ynat-v1_train_28987
+N223,사회,화마 이긴 희생정신…제천 화재현장 구조활동 6명에 LG의인상,2018-01-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263&oid=001&aid=0009799650,ynat-v1_train_27454
+N224,생활문화,장마 소강 전국 폭염특보 찜통더위 기승…일부 열대야,2017-07-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009416701,ynat-v1_train_03636
+N225,생활문화,인삼송어축제 준비로 분주한 홍천강,2018-01-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0009791360,ynat-v1_train_02292
+N226,생활문화,포근한 봄 날씨 낮 최고 18도…큰 일교차 주의,2017-03-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009099313,ynat-v1_train_32085
+N227,경제,KB국민카드 모바일 채팅으로 카드발급 심사하고 한도 증액,2019-01-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0010599675,ynat-v1_train_07192
+N228,정치,與 공천심사때 우선추천 총량 20%로 제한,2016-08-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008579350,ynat-v1_train_08094
+N229,사회,게시판 SKT 독거노인 케어 서비스 GSMA 우수사례 선정,2019-09-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0011101810,ynat-v1_train_08540
+N230,정치,조국 인사청문회 대책TF회의에 참석하는 나경원,2019-08-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0011038155,ynat-v1_train_32558
+N231,생활문화,바사리 르네상스 미술가 평전 복간본 완간,2019-04-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0010733525,ynat-v1_train_05565
+N232,경제,키움증권 카카오뱅크 실적 개선 추세…이젠 대형사업자,2019-12-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0011256877,ynat-v1_train_01071
+N233,세계,카탈루냐 수반 스페인의 노란 리본 철거지시 거부해 유죄,2019-12-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0011288270,ynat-v1_train_18624
+N234,IT과학,갤럭시S8 덱스 지원하는 최적화 오피스앱 출시,2017-07-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230&oid=001&aid=0009398219,ynat-v1_train_42166
+N235,사회,유영민 장관 사람 중심 4차 산업혁명 구현할 것,2018-01-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0009787240,ynat-v1_train_23728
+N236,생활문화,충무로뮤지컬영화제 폐막작 소개하는 이석준,2017-07-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0009443822,ynat-v1_train_44050
+N237,세계,美대선 TV토론 음담패설부터 이메일·세금까지 불꽃공방종합,2016-10-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=232&oid=001&aid=0008740998,ynat-v1_train_30510
+N238,생활문화,신간 느낌의 0도·밤은 부드러워라,2018-06-14,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0010150857,ynat-v1_train_31594
+N239,스포츠,롯데 한동희 등 KBO 퓨처스 올스타 48명 확정,2018-07-06,https://sports.news.naver.com/news.nhn?oid=001&aid=0010194581,ynat-v1_train_30921
+N240,정치,자리에 앉는 오신환과 이동섭,2019-12-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0011252000,ynat-v1_train_15116
+N241,세계,정의용·서훈 美서 세차례 면담…트럼프에 北 메시지 전달종합2보,2018-03-08,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0009943534,ynat-v1_train_02035
+N242,세계,군부 조롱 미얀마 풍자극단 단원 5명에 징역 1년 형,2019-10-31,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0011180513,ynat-v1_train_13554
+N243,경제,삼성·LG 연말 스마트폰 시장 한정판·명품 마케팅,2019-11-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0011232622,ynat-v1_train_00695
+N244,사회,KBS 뉴스타파와 공동취재로 현대家 비리 고발방송,2019-02-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010627641,ynat-v1_train_07919
+N245,생활문화,오늘 오후 9시 수도권 등 중부 한파경보…행안부 건강 유의속보,2018-01-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009830486,ynat-v1_train_02332
+N246,경제,오스테오닉 22일 코스닥 상장,2018-02-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263&oid=001&aid=0009907677,ynat-v1_train_05082
+N247,경제,하나금투 10월 옵션만기일 프로그램매매 매도 우위 전망,2016-10-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0008743705,ynat-v1_train_37547
+N248,스포츠,복근 파열 강소휘 女배구 대표팀서 제외…올림픽 예선 불참,2019-07-01,https://sports.news.naver.com/news.nhn?oid=001&aid=0010924680,ynat-v1_train_25928
+N249,사회,정연주 해임 반대시위에 경찰 투입 과도한 측면 있었다,2019-04-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010750584,ynat-v1_train_20856
+N250,IT과학,LG G5 사용자 안드로이드 누가 미리 맛본다,2016-08-16,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0008616317,ynat-v1_train_02579
+N251,세계,스위스 녹색당 총선 돌풍에도 정부 참여에는 실패,2019-12-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0011270767,ynat-v1_train_38616
+N252,세계,자금 투입하고 수입 길 터준다…日규제 피해기업 지원 즉시 착수,2019-08-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0011000569,ynat-v1_train_13521
+N253,IT과학,애플 아이폰X·SE·6S 단종…아이폰8·7 출고가 내려,2018-09-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0010340272,ynat-v1_train_37409
+N254,경제,원익IPS 삼성전자에 251억원 반도체 제조장비 공급,2017-11-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0009680057,ynat-v1_train_30503
+N255,경제,신한금투 증시 급락세 일단락…주식비중 확대하라,2016-02-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0008184799,ynat-v1_train_14571
+N256,경제,조원진 공무원연금공단 올해 주식투자로 735억원 손실,2018-10-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0010374093,ynat-v1_train_04469
+N257,스포츠,5승 오해 해명한 한국전력 가빈 남은 경기 전승하고 싶어,2019-12-18,https://sports.news.naver.com/news.nhn?oid=001&aid=0011285658,ynat-v1_train_26509
+N258,생활문화,삼청동 국립현대미술관서 영화·비디오아트 보세요,2019-04-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=242&oid=001&aid=0010788828,ynat-v1_train_07004
+N259,사회,민간임대주택에 뉴스테이 명칭 못 쓴다,2016-08-31,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260&oid=001&aid=0008652199,ynat-v1_train_30095
+N260,IT과학,전력소모 1천분의 1…초저전력 메모리 개발 길 열렸다,2018-03-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0009950882,ynat-v1_train_10149
+N261,사회,김무성 왕이 무능해 일제때 국민고통…다신 그런일 없어야종합,2016-08-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0008615128,ynat-v1_train_19720
+N262,생활문화,양산 쓰고 바라보는 푸르른 하늘,2017-09-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0009517571,ynat-v1_train_07766
+N263,스포츠,伊축구 베로나 이승우가 소개한 한식…동료들 엄지 척,2017-11-16,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=238&oid=001&aid=0009687782,ynat-v1_train_31999
+N264,경제,중도금 대출제한도 무색한 청약열기…1순위 마감 줄이어,2016-10-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260&oid=001&aid=0008749913,ynat-v1_train_29003
+N265,정치,북한 반공화국 적대행위 미국인 체포,2016-01-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=268&oid=001&aid=0008137219,ynat-v1_train_20533
+N266,경제,코스피 외국인 팔자에 다시 2440대로 후퇴,2018-05-17,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0010092337,ynat-v1_train_21698
+N267,IT과학,ETRI 고정밀 왜곡 신호 측정장치 개발,2017-07-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0009420472,ynat-v1_train_43050
+N268,사회,YTN 사장 후보 4명 압축…23일 면접 생중계,2018-07-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=254&oid=001&aid=0010208487,ynat-v1_train_10931
+N269,경제,국회예산정책처 실질환율 1% 오르면 GDP 0.1% 감소,2018-04-06,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0010007513,ynat-v1_train_34091
+N270,IT과학,그래픽 베일 벗은 LG G6…특징은,2017-02-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009066507,ynat-v1_train_34188
+N271,스포츠,아시안컵 출전 마지막 기회…벤투호 승선 생존경쟁,2018-12-05,https://sports.news.naver.com/news.nhn?oid=001&aid=0010507728,ynat-v1_train_40820
+N272,경제,벤처캐피털시장 창투·신기술금융으로 양분…억지통합 말아야,2017-11-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0009702133,ynat-v1_train_17693
+N273,세계,감옥에 갇힌 트럼프와 네타냐후,2019-05-31,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010861272,ynat-v1_train_32891
+N274,스포츠,FC바르셀로나 구단 일시 폐쇄…카탈루냐 폭력진압 항의,2017-10-03,https://sports.news.naver.com/news.nhn?oid=001&aid=0009586893,ynat-v1_train_07833
+N275,세계,터키 외교장관 미국이 적대적 태도 보이면 보복조치할 것,2019-07-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010973713,ynat-v1_train_01870
+N276,세계,유럽 우라늄농축 제한 합의 파기 이란에 철회 요구종합3보,2019-07-08,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010937575,ynat-v1_train_41761
+N277,IT과학,세계 스마트워치 판매량 5년내 1억대 돌파 전망,2017-04-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009218008,ynat-v1_train_02819
+N278,스포츠,불펜서도 부진한 두산 장원준 올해 3번째 1군 말소,2018-07-25,https://sports.news.naver.com/news.nhn?oid=001&aid=0010233042,ynat-v1_train_04354
+N279,생활문화,내일 오전까지 충청·호남 또 많은 비…호우특보 가능성,2018-08-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0010310585,ynat-v1_train_00344
+N280,세계,이해찬 韓日 이사갈 수 없는 관계…日 대화 성실히 임해야,2019-09-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0011101454,ynat-v1_train_23292
+N281,정치,최재성 송파을 재보선 출마…여야 대진표 윤곽종합,2018-03-29,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0009990339,ynat-v1_train_26154
+N282,스포츠,MLB 역대급 홈런 행진…6천700개 생산 페이스,2019-08-02,https://sports.news.naver.com/news.nhn?oid=001&aid=0010997937,ynat-v1_train_07370
+N283,경제,포스코 주당 1천500원 분기배당 결정,2018-07-27,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0010236876,ynat-v1_train_06436
+N284,경제,한경연 올해 경제성장률 2.8% 전망…작년보다 둔화,2018-03-22,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=263&oid=001&aid=0009975081,ynat-v1_train_42454
+N285,IT과학,네이버 AI개발자 실험 돕는다…온라인도구 NSML 공개,2017-10-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0009604168,ynat-v1_train_42915
+N286,IT과학,갤노트9 출시 임박 예판량 S9 웃돌아…이통사 고객 유치전,2018-08-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0010281158,ynat-v1_train_16046
+N287,경제,경기하강 위험·개소세 종료로 내수회복 제약될 수도,2016-08-09,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0008597721,ynat-v1_train_23081
+N288,생활문화,신간 우리가 몰랐던 세상의 도서관들·1987 이한열,2017-12-08,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=243&oid=001&aid=0009737160,ynat-v1_train_26101
+N289,정치,긴급의총 마치고 규탄 구호 외치는 한국당,2019-04-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0010782082,ynat-v1_train_23979
+N290,스포츠,프로축구연맹 경찰 축구단 모집 중단 결정에 공식 항의키로,2018-09-18,https://sports.news.naver.com/news.nhn?oid=001&aid=0010349442,ynat-v1_train_21641
+N291,IT과학,클라우드로 침입자 막는다… KT텔레캅 새 보안서비스 출시,2017-11-02,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0009654284,ynat-v1_train_33793
+N292,경제,구글 캠퍼스서울 스타트업 작년 112억 투자유치,2016-02-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0008179783,ynat-v1_train_16797
+N293,생활문화,충북 맑은 날씨…미세먼지는 나쁨,2016-01-16,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=248&oid=001&aid=0008121713,ynat-v1_train_31562
+N294,세계,美 미네소타 州박람회장 입구서 총격…3명 부상,2019-09-04,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=232&oid=001&aid=0011059769,ynat-v1_train_28928
+N295,스포츠,최지만 마이애미전 2안타 1득점…탬파베이 5연승,2019-08-04,https://sports.news.naver.com/news.nhn?oid=001&aid=0011000730,ynat-v1_train_44421
+N296,생활문화,세계 유명 조각가 10명이 만든 해운대 모래축제 개막,2017-05-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0009293075,ynat-v1_train_31538
+N297,스포츠,아시아퍼시픽 대학농구 챌린지 5일 개막…연세대 등 6팀 출전,2018-08-04,https://sports.news.naver.com/news.nhn?oid=001&aid=0010251093,ynat-v1_train_39861
+N298,생활문화,꿀잼여행 제주권 유네스코가 극찬한 세계지질공원…1만8천년 전 시간여행,2019-04-26,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0010788942,ynat-v1_train_35121
+N299,정치,단독 靑김영재 지원 잃어버린 고리 확인…朴대통령 향하나,2016-12-13,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0008885537,ynat-v1_train_34184
+N300,IT과학,화이트 그래핀 반도체 나올까…대면적 합성 성공,2019-05-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0010841798,ynat-v1_train_03431
+N301,스포츠,류현진 경쟁자 셔저 마지막 주 최고 선수로 선정…6월...,2019-07-02,https://sports.news.naver.com/news.nhn?oid=001&aid=0010926881,ynat-v1_train_14309
+N302,사회,11살 딸 친구에게 몹쓸 짓 50대 징역 2년 6월,2018-11-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=257&oid=001&aid=0010474469,ynat-v1_train_26291
+N303,경제,셀트리온 작년 영업익 5천174억 사상 최대…1년새 2배종합,2018-01-19,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0009824179,ynat-v1_train_16507
+N304,경제,생보협회장 정부대책 시행해보고 실손보험료 인하 말해야,2018-02-08,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0009871164,ynat-v1_train_26525
+N305,IT과학,스마트공장의 꽃 산업용 로봇,2019-03-27,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0010722010,ynat-v1_train_39789
+N306,경제,삼성 미국서 갤럭시탭S3 예약판매,2017-03-17,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230&oid=001&aid=0009114646,ynat-v1_train_00920
+N307,사회,금감원 대심제 시행하자 제재 처리 빨라지고 진술인 늘어,2018-07-11,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=259&oid=001&aid=0010203300,ynat-v1_train_11934
+N308,스포츠,라건아·이종현 동반 더블더블…현대모비스 11연승 질주,2018-12-15,https://sports.news.naver.com/news.nhn?oid=001&aid=0010528010,ynat-v1_train_30759
+N309,정치,조경태 단수추천공천 확정…새누리 예비후보·당원 반발,2016-03-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008232836,ynat-v1_train_43232
+N310,경제,작년 12월 법원경매 낙찰률 75.1%…7년5개월만 최고,2016-01-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260&oid=001&aid=0008121235,ynat-v1_train_28703
+N311,스포츠,이병완 WKBL 총재 여자농구에 평양팀 먼 얘기 아냐,2018-07-09,https://sports.news.naver.com/news.nhn?oid=001&aid=0010198059,ynat-v1_train_10211
+N312,생활문화,카메라뉴스 해남 땅끝마을 맴섬의 황홀한 일출,2016-10-23,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0008771674,ynat-v1_train_01891
+N313,세계,이탈리아 유럽 최대 규모 시칠리아섬 난민센터 폐쇄,2019-07-10,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0010943964,ynat-v1_train_26476
+N314,스포츠,개막 5연승 돌풍 부천 정갑석 감독 K리그 3월의 감...,2018-04-05,https://sports.news.naver.com/news.nhn?oid=001&aid=0010006997,ynat-v1_train_00434
+N315,세계,중국인 통 큰 씀씀이 호주 관광산업 먹여 살린다,2016-01-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=231&oid=001&aid=0008119979,ynat-v1_train_21289
+N316,IT과학,사이테크 플러스 저전력으로 자성메모리 고속작동 구현하는 신소재 개발,2018-12-06,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0010510069,ynat-v1_train_40426
+N317,생활문화,홍천 비발디파크 시즌권으로 해외 스키장 이용,2016-09-08,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=103&sid2=237&oid=001&aid=0008674846,ynat-v1_train_07510
+N318,사회,한중 틈메우기 시도…한일 위안부 여진에 조심조심,2016-04-01,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0008299884,ynat-v1_train_09743
+N319,스포츠,NBA 휴스턴 애틀랜타 꺾고 9연승…첫 60승 안착,2018-03-26,https://sports.news.naver.com/news.nhn?oid=001&aid=0009982224,ynat-v1_train_36069
+N320,IT과학,알츠하이머 치매 조기 진단키트 개발…피 한방울이면 충분,2019-09-16,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0011082171,ynat-v1_train_41700
+N321,세계,작년 EU 망명신청자수 63만여명…2014년 수준으로 줄어,2019-02-14,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010633154,ynat-v1_train_01971
+N322,스포츠,기성용 기록 깬 손흥민과 셀카…최고기록까지 세우렴,2017-04-06,https://sports.news.naver.com/news.nhn?oid=001&aid=0009167325,ynat-v1_train_19892
+N323,정치,총선 D10 전주권 국민의당 후보들 친노 패권주의 맹비난,2016-04-03,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008303417,ynat-v1_train_06588
+N324,사회,정운찬 KBO 총재 일문일답 궁극적으로 KBO.COM 만...,2018-01-03,https://sports.news.naver.com/news.nhn?oid=001&aid=0009788298,ynat-v1_train_06054
+N325,IT과학,우주개발 시행계획 6대 전략에 올해 5천813억원 투입,2019-03-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=228&oid=001&aid=0010678644,ynat-v1_train_38382
+N326,정치,특검 최순실 뇌물죄 수사 공식화…朴대통령 정조준종합,2016-12-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=264&oid=001&aid=0008912613,ynat-v1_train_21778
+N327,세계,소말리아 테러단체 알샤바브 美 공습강화에도 소탕은 미지수,2019-12-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0011306039,ynat-v1_train_28315
+N328,스포츠,괴력의 게레로 주니어 올스타 홈런 더비 신기록 세우고 4강행,2019-07-09,https://sports.news.naver.com/news.nhn?oid=001&aid=0010940227,ynat-v1_train_01654
+N329,IT과학,한 번 충전해 이틀 쓴다…LG 스마트폰 X 파워2 MWC서 공개,2017-02-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009061372,ynat-v1_train_25110
+N330,정치,황총리 사회간접자본 확충해 경제활력 회복하겠다,2016-01-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=265&oid=001&aid=0008102870,ynat-v1_train_04946
+N331,사회,54곳에 행복주택 1만5천936가구…신혼부부 특화단지 5곳 추가,2016-09-21,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=260&oid=001&aid=0008696446,ynat-v1_train_31512
+N332,정치,獨정당 지지율 2위 녹색당 최저임금 획기적 인상안 제시,2019-11-18,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0011220656,ynat-v1_train_06027
+N333,IT과학,카톡 오면 멍멍…알림음 26개 추가,2019-02-12,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=230&oid=001&aid=0010629351,ynat-v1_train_44919
+N334,스포츠,강이슬 22점 여자농구 하나은행 단독 4위 도약,2018-11-28,https://sports.news.naver.com/news.nhn?oid=001&aid=0010495550,ynat-v1_train_17645
+N335,정치,伊 대통령 새 연정 승인…콘테 현 총리에 연정 구성 권한 부여종합,2019-08-30,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0011049701,ynat-v1_train_31794
+N336,사회,부산 제조업 종사자 1년 새 3만 명 감소,2016-07-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=261&oid=001&aid=0008543193,ynat-v1_train_37744
+N337,사회,kt 대범한 신인 김민 준비 많이 하고 왔으니까요,2018-09-28,https://sports.news.naver.com/news.nhn?oid=001&aid=0010367099,ynat-v1_train_05712
+N338,경제,오늘의 투자전략 달러 강세·금리 상승 부정적이지 않다,2016-10-25,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=101&sid2=258&oid=001&aid=0008775735,ynat-v1_train_08519
+N339,스포츠,박철우 26점 폭발 삼성화재 OK저축은행 꺾고 3위 점프,2019-12-20,https://sports.news.naver.com/news.nhn?oid=001&aid=0011290231,ynat-v1_train_42473
+N340,세계,튀니지 해역 표류 이민자 75명 본국 강제 송환 위기,2019-06-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010904241,ynat-v1_train_13220
+N341,IT과학,보이는 AI스피커 경쟁…KT 기가지니 테이블TV 공개,2019-04-29,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=227&oid=001&aid=0010793722,ynat-v1_train_12491
+N342,세계,라가르드 獨 ECB 이사국중 하나일뿐…현명한 부엉이 될것종합,2019-11-07,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=233&oid=001&aid=0011195120,ynat-v1_train_06721
+N343,사회,초등생 2명 사망 인천 축구클럽 승합차 운전자 구속,2019-05-24,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=102&sid2=257&oid=001&aid=0010846827,ynat-v1_train_05906
+N344,IT과학,KT 차이나모바일과 5G 로밍·블록체인 협력,2019-12-05,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0011258462,ynat-v1_train_15609
+N345,사회,방통위원장 폰 상인들에게 25% 선택약정 잘 안내해 달라,2017-09-28,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=731&oid=001&aid=0009580396,ynat-v1_train_12405
+N346,IT과학,이란 자체개발 인공위성 발사 실패…발사체 오류,2019-01-15,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=104&sid2=234&oid=001&aid=0010582000,ynat-v1_train_26142
+N347,정치,황총리 IS 테러가능성 있는 시설물 테러대비 태세 점검,2016-06-20,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=100&sid2=269&oid=001&aid=0008483464,ynat-v1_train_29126
+N348,경제,카카오미니 2차 판매도 26분만에 매진…내일 예약판매,2017-11-28,https://news.naver.com/main/read.nhn?mode=LS2D&mid=shm&sid1=105&sid2=226&oid=001&aid=0009713839,ynat-v1_train_30329
+N349,스포츠,추일승 감독 항의로 벌금 징계한 KBL 해당 상황 오심 인정,2018-01-12,https://sports.news.naver.com/news.nhn?oid=001&aid=0009808388,ynat-v1_train_45289
+N350,스포츠,EPL 리버풀 유럽챔피언스리그 본선 합류,2017-08-24,https://sports.news.naver.com/news.nhn?oid=001&aid=0009494779,ynat-v1_train_21435
