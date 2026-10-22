@@ -21,19 +21,21 @@
 | `data/naver_shopping.txt.gz` | 원자료 20만 건 미러 (원본 그대로 gzip) — 워크북 3 학습용, 원 배포처 장애 시 워크북 0 대체 |
 | `data/week06_MANIFEST.csv` | 파일 크기·MD5·행 수 (Drive·업로드 파일이 원본과 같은지 확인, Drive 폴더 자동 탐색 표식) |
 | `data/DATA_SOURCES.md` | 출처·라이선스·정제 규칙·한계·다른 수집 경로 |
+| `colab/Week06_이론예제_파이썬문법.ipynb` | **이론 시간용 예제** — 워크북 코드의 파이썬 문법(T1 문자열·리스트 ~ T9 평가 지표)을 작은 예제로 한 셀씩 실행하며 설명. 외부 데이터 없이 20초 |
 | `colab/Week06_00_감성데이터수집_실습.ipynb` / `_완성.ipynb` | **워크북 0** 원자료 다운로드 → 품질 점검 → 정제 → 층화추출 → 수집 기록 (실습 TODO 5) |
 | `colab/Week06_리뷰감성분석_실습.ipynb` / `_완성.ipynb` | **워크북 1~4** 정제·탐색 → 키워드 규칙 v1/v2/v3 → AI 감성분석 → 비교·평가 (실습 TODO 11) |
 | `colab/Week06_00_데이터준비_Drive저장.ipynb` | 강의자용: 수업 전 1회 실행 → Drive `강의6주/01_데이터`에 데이터 저장(MD5 확인, ZIP 포함) |
 | `workbook/week06_workbook_checklist.csv` | 단계별 기대값 체크리스트 |
 | `workbook/week06_labeling_sheet.csv` | 워크북 2 직접 라벨링 기록지 (R001~R020) |
 | `workbook/week06_disagreement_review.csv` | 워크북 4 불일치 사례 판단 기록지 |
-| `figures/` | 완성본이 만든 그림 7장 (Notion 본문에 삽입) |
+| `figures/` | 완성본이 만든 그림 7장 + 이론 예제 시그모이드 그림 (Notion 본문에 삽입) |
 | `examples/` | 완성본 실행 결과 예시 (`week06_results.csv` 등) |
-| `tools/` | 강의자용: 데이터 생성(`build_week06_data.py`), 노트북 생성·실행 검증(`build_notebooks.py`) |
+| `tools/` | 강의자용: 데이터 생성(`build_week06_data.py`), 노트북 생성·실행 검증(`build_notebooks.py`, 이론 예제 `make_theory.py`) |
 
 ## Colab에서 열기
 | 노트북 | 실습본 | 완성본 |
 |---|---|---|
+| 이론 예제 (파이썬 문법) | [열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week06/colab/Week06_이론예제_파이썬문법.ipynb) | – |
 | 워크북 0 감성데이터 수집 | [열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week06/colab/Week06_00_감성데이터수집_실습.ipynb) | [열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week06/colab/Week06_00_감성데이터수집_완성.ipynb) |
 | 워크북 1~4 리뷰 감성분석 | [열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week06/colab/Week06_리뷰감성분석_실습.ipynb) | [열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week06/colab/Week06_리뷰감성분석_완성.ipynb) |
 
