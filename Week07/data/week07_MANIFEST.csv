@@ -1,5 +1,5 @@
 ﻿file,bytes,md5,rows,note
 week07_comments_300.csv,32278,6f0fc0521697db1f323b964635151ba9,300,워크북 1 입력: 네이버 영화 140자평(NSMC) 긍정 150·부정 150
-week07_news_350.csv,71235,34210ace821bf06242646ec9f6b5f80c,350,워크북 2 입력: 연합뉴스 제목(KLUE-YNAT) 7개 분야 × 50
+week07_news_350.csv,71235,698de500d9840f6bc64c52d0de0107b4,350,워크북 2 입력: 연합뉴스 제목(KLUE-YNAT) 7개 분야 × 50
 nsmc_ratings.txt.gz,8282350,0fc1ba57a9e02d3656a7952fcfe01603,200000,"댓글 원자료 미러, 압축 해제 MD5=f1f2772629b775ac39a6344e95a2c9a8"
 ynat_titles_all.csv.gz,2353363,64ab6136f03beebf8c8cf5d84a1f52fb,45678,"뉴스 제목 전체본(guid·category·title·date·url), 확장 과제용"

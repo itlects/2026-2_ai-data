@@ -61,7 +61,9 @@ def write_gz(path, inner_name, data):
 
 
 def clean_text(s):
-    return s.astype("string").str.strip().str.replace(r"\s+", " ", regex=True)
+    """앞뒤 공백 제거, 연속 공백 1칸, 유니코드 NFC 정규화(호환용 한자 '女'(U+F981) → '女'(U+5973) 등)"""
+    return (s.astype("string").str.normalize("NFC")
+             .str.strip().str.replace(r"\s+", " ", regex=True))
 
 
 def make_comments(raw):
