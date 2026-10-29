@@ -30,11 +30,11 @@
 | `data/nsmc_ratings.txt.gz` · `data/ynat_titles_all.csv.gz` | 원자료 미러 · 뉴스 제목 전체본(확장 과제용) |
 | `data/week07_MANIFEST.csv` | 파일 크기·MD5·행 수 (Drive·업로드 파일 확인, Drive 폴더 자동 탐색 표식) |
 | `data/DATA_SOURCES.md` | 출처·라이선스·정제 규칙·한계 |
-| `colab/Week07_텍스트시각화_실습.ipynb` / `_완성.ipynb` | **워크북 1~3** (실습본 TODO 9곳, 완성본은 전체 실행·출력 포함) |
+| `colab/Week07_텍스트시각화_실습.ipynb` / `_완성.ipynb` | **워크북 0~3** 한 노트북 — 0 준비·데이터 연결(셀 0-1~0-9), 1 댓글(1-1~1-9), 2 뉴스(2-1~2-5), 3 AI 비교(3-1~3-9). 실습본 TODO 9곳, 완성본은 실행 결과 포함 |
 | `colab/Week07_00_유튜브댓글수집.ipynb` | 확장: YouTube Data API v3로 유튜브 댓글 수집 → 같은 형식 CSV (API 키 필요) |
 | `colab/Week07_00_데이터준비_Drive저장.ipynb` | 강의자용: 수업 전 1회 실행 → Drive `강의7주/02_데이터`에 데이터 저장(MD5 확인) |
-| `workbook/워크북1~3_*.md` | 워크북 안내 (단계별 기대값, 기록 항목) |
-| `workbook/week07_workbook_checklist.csv` | 단계별 기대값 체크리스트 |
+| `workbook/워크북0~3_*.md` | 노션 워크북 페이지와 같은 내용: 단계별 개념 → ▶ 셀 코드 → 실행 결과 → 실행 후 확인 → 코드 읽기 |
+| `workbook/week07_workbook_checklist.csv` | 셀 번호별 기대값 체크리스트 |
 | `workbook/week07_ai_verification_template.csv` | 워크북 3 AI 검증 기록지 |
 | `figures/` | 완성본이 만든 그림 8장 |
 | `examples/` | 완성본 결과 예시 (상위30 CSV, AI 키워드 검증표, 프롬프트) |
@@ -48,7 +48,7 @@
 | 확장: 유튜브 댓글 수집 | [열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week07/colab/Week07_00_유튜브댓글수집.ipynb) |
 | 강의자: Drive 데이터 준비 | [열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week07/colab/Week07_00_데이터준비_Drive저장.ipynb) |
 
-열린 뒤 `파일 → Drive에 사본 저장` → `런타임 → 모두 실행` (설치 포함 약 1~2분). 워크북 1~3은 API 키가 필요 없다.
+열린 뒤 `파일 → Drive에 사본 저장`. 노션 워크북 페이지(또는 `workbook/워크북0~3_*.md`)를 위에서부터 읽으며 **같은 번호 셀(▶ 셀 0-1, 0-2 …)** 을 `Shift+Enter`로 하나씩 실행한다. 한 번에 실행하려면 `런타임 → 모두 실행`(약 1~2분). API 키는 필요 없다.
 노트북 0장의 `DATA_SOURCE`로 GitHub / Drive / 업로드 중 데이터 위치를 고른다(기본 `"auto"`: GitHub 실패 시 Drive 자동 탐색).
 
 ## 기준 결과 (완성본 실행값)
@@ -66,8 +66,8 @@
 ## 수정·재생성 (강의자)
 ```bash
 python Week07/tools/build_week07_data.py                                       # 원자료 → 표본·MANIFEST (시드 2026)
-python Week07/tools/build_notebooks.py --execute python3 --data-dir Week07/data   # 노트북 생성 + 완성본 실행, figures·examples 갱신
+python Week07/tools/build_notebooks.py --execute python3 --notion OUT_DIR   # 노트북 생성 + 완성본 실행(GitHub 데이터), figures·examples·workbook 문서 갱신, 노션 본문 OUT_DIR/notion_wb0~3.md
 ```
 - 부적절한 댓글을 발견하면 `tools/week07_comment_exclude.csv`에 `src_id,사유`를 추가하고 두 명령을 다시 실행한다.
-- 노트북 원고: `tools/make_main.py`(워크북 1~3), `tools/make_extra.py`(보조 노트북). 기대값 문구: `tools/expect_values.py`.
+- 원고: `tools/make_main.py` 하나(워크북 0~3: 단계 개념·셀 코드·코드 읽기·실행 후 확인)에서 실습본·완성본·노션 본문·`workbook/` 문서를 함께 만든다. 보조 노트북은 `tools/make_extra.py`.
 - AI 예시 답(`tools/ai_example.py`)은 데이터를 바꾸면 근거 번호가 달라지므로 다시 만들어 확인한다.
