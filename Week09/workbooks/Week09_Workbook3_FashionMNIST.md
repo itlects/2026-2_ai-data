@@ -12,7 +12,7 @@
 
 **HOG+SVM:** 사람이 설계한 경계선 특징(HOG)을 SVM 분류기에 입력합니다.  
 **MLP 신경망:** 28×28 픽셀을 784개 숫자로 펼친 뒤 신경망이 가중치를 학습합니다.  
-**Teachable Machine:** 이미지 업로드와 훈련을 노코드로 처리하며 일반적으로 사전 학습된 이미지 특징을 활용합니다. 본 과제에서 Teachable Machine 모델과 정확도를 직접 비교하지는 않습니다.
+**Teachable Machine:** 이미지 업로드와 훈련을 노코드로 처리하며 일반적으로 사전 학습된 이미지 특징을 활용합니다. 9·10단계에서 Teachable Machine 실습을 진행하며, 평가 조건이 다른 모델의 정확도는 직접 비교할 수 없음을 설명합니다.
 
 > HOG+SVM과 MLP는 학습 방식의 차이를 보여 주기 위한 **교육용 기준선**입니다. MLP는 CNN이 아니며, 어느 모델의 성능이 반드시 더 높다고 단정하지 않습니다.
 
@@ -250,4 +250,130 @@ except ImportError:
 **심화 선택 과제**: `max_iter=30`을 60으로 바꾸거나 훈련 데이터를 3,000→6,000장으로 늘린 뒤 학습시간·정확도를 기록하세요. 단, **평가 데이터 600장과 지표 계산 방법은 유지**해야 합니다.
 
 **학습 윤리·재현성**: 정확도 수치를 미리 적지 말고 실제 실행값을 기록하세요. 데이터 표본, 라이브러리 버전, 랜덤 시드가 바뀌면 결과가 달라질 수 있습니다. 데이터셋은 Zalando Fashion-MNIST(MIT)를 사용하며 원본 출처를 기록합니다.
+
+
+## 9단계 | Fashion-MNIST를 Teachable Machine용 PNG로 준비하기 (선택 심화)
+
+**학습 목적:** HOG+SVM, MLP와 별도로 노코드 학습 도구를 체험합니다. Teachable Machine 웹사이트는 Fashion-MNIST 데이터를 자동으로 가져오지 않으므로, 동일한 데이터 원본에서 일부 이미지를 클래스별 PNG로 내보냅니다.
+
+**Python 문법:** `Path`는 폴더·파일 경로를 다루며, `mkdir(..., exist_ok=True)`는 폴더가 없을 때 생성합니다. `np.flatnonzero(y_train == k)`는 클래스 번호 `k`에 해당하는 행의 위치를 찾습니다. `[:30]`은 앞의 30개를 선택합니다. `for split, images, labels, n in ...`는 여러 묶음을 반복합니다. `Image.fromarray(...).resize(...).convert('RGB').save(...)`는 NumPy 이미지를 PNG로 저장합니다.
+
+**알고리즘 설명:** `T-shirt/top(0)`, `Trouser(1)`, `Sneaker(7)` 세 가지로 범위를 좁힙니다. 원래 28×28 흑백 이미지의 내용을 바꾸지 않고 224×224 크기의 RGB PNG로 변환합니다. 훈련용 90장(클래스당 30), 평가용 30장(클래스당 10)을 각각 폴더에 저장합니다. **평가용 이미지를 학습에 넣지 마세요.**
+
+**실행 결과:** `Week09_Fashion_TM_Images.zip` 파일을 다운로드합니다. ZIP 안의 `train/`과 `test/` 폴더를 확인하세요.
+
+**확인 질문:** 28×28 픽셀을 224×224로 확대해도 원본에 없던 새로운 시각 정보가 생기지는 않는 이유가 무엇인가요?
+
+```python
+from pathlib import Path
+from PIL import Image
+import zipfile
+
+EXPORT_DIR = Path('/content/week09_fashion_tm')
+classes_for_tm = {0: 'Tshirt', 1: 'Trouser', 7: 'Sneaker'}
+for split, images, labels, num_per_class in [
+    ('train', x_train, y_train, 30),
+    ('test', x_test, y_test, 10),
+]:
+    for label_id, name in classes_for_tm.items():
+        outdir = EXPORT_DIR / split / name
+        outdir.mkdir(parents=True, exist_ok=True)
+        indices = np.flatnonzero(labels == label_id)[:num_per_class]
+        assert len(indices) == num_per_class, (split, name, len(indices))
+        for j, idx in enumerate(indices):
+            image = Image.fromarray(images[idx])
+            image = image.resize((224, 224), resample=Image.Resampling.NEAREST)
+            image.convert('RGB').save(outdir / f'{name}_{j:03d}.png')
+
+ZIP_PATH = Path('Week09_Fashion_TM_Images.zip')
+with zipfile.ZipFile(ZIP_PATH, 'w', compression=zipfile.ZIP_DEFLATED) as z:
+    for file in sorted(EXPORT_DIR.rglob('*.png')):
+        z.write(file, file.relative_to(EXPORT_DIR))
+with zipfile.ZipFile(ZIP_PATH) as z:
+    assert len(z.namelist()) == 120
+print('훈련용 90장 + 평가용 30장 ZIP 저장:', ZIP_PATH)
+try:
+    from google.colab import files
+    files.download(str(ZIP_PATH))
+except ImportError:
+    print('로컬 실행에서는 현재 작업 폴더에서 ZIP 파일을 찾으세요.')
+
+```
+
+## 10단계 | Teachable Machine으로 분류하고 실제 옷 사진도 분류해 보기
+
+**실습 A — 동일한 Fashion-MNIST 데이터 기반 Teachable Machine 비교**
+
+1. [Teachable Machine](https://teachablemachine.withgoogle.com/) → Get Started → Image Project → Standard image model을 선택합니다.
+2. ZIP을 압축 해제한 후 `train/Tshirt`, `train/Trouser`, `train/Sneaker` 폴더의 이미지를 각각 해당 클래스에 업로드합니다. 한 클래스당 30장씩 총 90장입니다.
+3. **Train Model**을 누릅니다. 사진·이미지를 학습에 사용한 뒤 모델을 평가합니다.
+4. `test/` 폴더의 이미지 30장(각 10장)을 **하나씩** Preview에 넣고 예측 클래스와 신뢰도 점수를 기록합니다. 시험용 이미지는 Train Model에 넣지 마세요.
+5. 정답 수 ÷ 30으로 정확도를 계산합니다. Colab의 HOG+SVM·MLP는 10개 클래스/600장 평가, Teachable Machine 실습 A는 3개 클래스/30장 평가이므로 **세 수치를 직접 공정 비교할 수는 없습니다**. 비교할 때 반드시 클래스 수와 평가 표본이 다름을 적습니다. 세 모델의 공정한 정량 비교를 하려면 동일한 3개 클래스·동일한 30장 평가로 Colab 모델도 별도로 재학습·재평가해야 합니다.
+
+**실습 B — 학생이 스마트폰으로 촬영한 의류 분류 (선택 개인 과제, 권장)**
+
+1. 본인이 소유하거나 촬영 허락을 받은 옷 중 `티셔츠`, `바지`, `운동화` 3개 클래스를 선택합니다. 실제 의류가 부족한 경우 팀별로 같은 카테고리의 소지품을 활용합니다.
+2. 각 클래스별 **학습 사진 20장 이상**을 촬영합니다. 정면·측면·거리·조명·배경을 다양하게 하되, 사진 속 의류가 무엇인지 명확해야 합니다. 웹캠을 이용할 경우 촬영 대상에 사람 얼굴이 나오지 않게 합니다.
+3. 학습 사진과 별개로 **평가 사진 5장 이상/클래스**를 촬영해 따로 보관합니다. 연속 촬영으로 거의 같은 이미지가 섞이면 평가가 지나치게 쉬워질 수 있으므로 배경·각도를 바꿉니다.
+4. 새로운 Teachable Machine 이미지 프로젝트에서 세 클래스를 생성하고 **학습 사진만** 업로드합니다. Train Model을 실행합니다.
+5. 평가 사진 15장 이상을 하나씩 Preview에서 분류합니다. 정답 클래스·예측 클래스·신뢰도 점수를 표에 기록합니다.
+6. 정답 수/전체 평가 수로 정확도를 계산하고 오분류 2개 이상(없다면 오분류 0건이라고 명시)의 원인을 분석합니다.
+
+**주의:** Fashion-MNIST 흑백 이미지로 학습한 모델의 성능과 스마트폰 촬영 컬러 사진 모델의 성능은 평가 조건이 다릅니다. **서로 다른 영역(도메인)의 실험**으로 정리합니다. 사람 얼굴, 개인정보, 촬영 허락 없는 타인의 소지품 사진은 사용하지 않습니다.
+
+**과제 결과표**
+
+| 구분 | 모델/실습 | 학습 이미지 | 평가 이미지 | 정확도(%) | 주요 오분류 원인 |
+| --- | --- | ---: | ---: | ---: | --- |
+| Fashion-MNIST | HOG+SVM(10클래스) | 3,000 | 600 | 학생 작성 | |
+| Fashion-MNIST | MLP(10클래스) | 3,000 | 600 | 학생 작성 | |
+| Fashion-MNIST | Teachable Machine(3클래스) | 90 | 30 | 학생 작성 | |
+| 스마트폰 옷 사진 | Teachable Machine(3클래스) | 60장 이상 | 15장 이상 | 학생 작성 | |
+
+**최종 제출:** Teachable Machine 클래스별 학습 화면, 평가 결과표, 스마트폰 사진의 실제 예시(개인정보 제거), 오분류 분석, Fashion-MNIST와 실제 사진의 차이 설명을 기존 CSV 및 캡처 자료에 추가합니다.
+
+## 11단계 | 제공된 의류 이미지로 Teachable Machine 파일·웹캠 분류하기
+
+**학습 목적:** 스마트폰 촬영이 어려운 학생도 바로 실습할 수 있도록 티셔츠·바지·운동화의 **학습용 72장 및 시험용 30장** 이미지 파일을 제공하고, 같은 Teachable Machine 프로젝트에서 **File(파일)**과 **Webcam(웹캠)** 두 방법을 각각 실행합니다.
+
+**준비된 이미지:** [티셔츠·바지·운동화 이미지 ZIP 다운로드](https://github.com/itlects/2026-2_ai-data/raw/refs/heads/main/Week09/data/Week09_TM_Clothes_Train_Test.zip) / [Google Drive 이미지 ZIP](https://drive.google.com/file/d/1PGfP_i0kq_Q1OO6HYxc91An3TqJGwwGT/view)
+
+> 이미지들은 저작권 걱정 없이 수업에 사용할 수 있도록 만든 **합성 의류 일러스트**입니다. 실제 의류 상품 사진은 아니므로, 실제 사진을 잘 분류할지는 별도 평가해야 합니다. `train`과 `test` 폴더를 절대 섞지 않습니다.
+
+**11-1. 클래스별 학습(파일 업로드)**
+
+1. ZIP을 다운로드하고 압축 해제합니다. `train/tshirt`, `train/pants`, `train/sneakers` 및 `test/` 폴더가 생성됩니다.
+2. [Teachable Machine](https://teachablemachine.withgoogle.com/) → **Get Started → Image Project → Standard image model**을 선택합니다.
+3. `Class 1`, `Class 2`, `Class 3`의 이름을 각각 `T-shirt`, `Pants`, `Sneakers`로 변경합니다.
+4. 각 클래스의 **Upload** 버튼을 눌러 `train` 폴더의 해당 이미지 **24장씩**을 업로드합니다. 3개 클래스 × 24장 = **72장**입니다.
+5. **Train Model**을 클릭하고 학습 완료를 기다립니다. 이때 `test` 이미지는 사용하지 않습니다.
+
+**11-2. 방법 A — Webcam으로 실시간 분류**
+
+1. **Preview**에서 입력 방법으로 **Webcam**을 선택하고 브라우저의 카메라 권한을 허용합니다.
+2. 티셔츠·바지·운동화 실물을 차례로 카메라 앞에 놓습니다. 사용자의 얼굴이나 다른 사람은 촬영하지 않습니다.
+3. 각 물체를 정면과 옆면, 밝은 배경과 어두운 배경으로 바꾸어 비추고 **예측 클래스 및 신뢰도(%)**를 기록합니다.
+4. 웹캠 미지원 PC라면 스마트폰으로 촬영하여 파일로 저장한 후, 다음 방법 B로 대체할 수 있습니다.
+5. **주의:** 제공된 학습 이미지가 일러스트이므로 실제 제품을 웹캠으로 비추면 오분류될 수 있습니다. 이때 직접 촬영한 실물 사진을 클래스별로 추가 학습한 뒤 다시 시험해 보고 결과 차이를 적습니다. 추가 학습에 사용한 사진은 평가에 사용하지 않습니다.
+
+**11-3. 방법 B — File(파일 업로드)로 분류**
+
+1. Preview의 입력 유형을 **File(또는 Upload)**로 변경합니다. UI 명칭은 업데이트에 따라 달라질 수 있습니다.
+2. **`test/tshirt`의 10장**을 하나씩 선택하고 예측값을 기록합니다. 이어서 `test/pants` 10장, `test/sneakers` 10장도 평가합니다.
+3. 반드시 학습에 넣지 않은 **총 30장**을 테스트하고 정확도를 `정답 수 ÷ 30 × 100`으로 계산합니다.
+4. 정답과 예측이 다른 이미지가 있으면 해당 이미지의 파일명·예측 클래스·신뢰도를 기록합니다.
+
+**11-4. 결과 기록표**
+
+| 테스트 방식 | 평가 대상 | 평가 개수 | 정답 수 | 정확도 | 관찰 내용 |
+| --- | --- | ---: | ---: | ---: | --- |
+| File | 제공 시험 이미지(`test/`) | 30 | 직접 기록 | 정답수/30 | 잘못 분류된 이미지 확인 |
+| Webcam | 실제 옷 실물, 각 클래스 3회 이상 | 9회 이상 | 직접 기록 | 정답수/평가수 | 각도·배경·조명 영향 |
+| File | 본인이 찍은 새로운 옷 사진(선택) | 9장 이상 | 직접 기록 | 정답수/평가수 | 실제 사진의 오분류 이유 |
+
+**Python 개념 연결:** 이 단계에서는 Python으로 모델을 훈련시키지는 않습니다. 그러나 `train`과 `test`의 분리는 앞선 Colab의 `fit(X_train, y_train)`과 `predict(X_test)`에 대응합니다. `정확도 = 정답 수 / 전체 평가 개수`는 앞선 `accuracy_score(y_test, pred)`와 같은 개념입니다.
+
+**확인 질문:** (1) File 테스트 정확도와 Webcam 테스트 정확도가 왜 다를까요? (2) 카메라 권한이 없으면 어떤 대체 실습을 할 수 있나요? (3) `test` 사진을 학습시켜 버리면 결과가 왜 신뢰하기 어려울까요?
+
+**제출:** 학습 클래스 3개 화면, File 분류 3회 이상 캡처(클래스별 1회 이상), Webcam 분류 3회 이상 캡처(클래스별 1회 이상), 평가표 및 오류 해석. 카메라가 없는 학생은 파일 업로드로 직접 촬영한 의류 사진 9장 이상을 별도로 시험하고 대체 사유를 기록합니다.
 
