@@ -1,37 +1,38 @@
 # Week10 교통 데이터의 시각화
 
-동서울대학교 인공지능과 데이터 활용, 2026-2학기. 기본 120분, 선택 AI 심화 15~20분.
+인공지능과 데이터 활용 · 2026-2학기 · 120분
+서울 열린데이터광장의 지하철 승하차 데이터를 시각화하고, 실제 열차 혼잡도·AI 혼잡도 예측과 비교합니다.
 
 ## 바로 시작
 - [학생 워크북 Colab 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week10/notebooks/Week10_Student_Workbook.ipynb)
-- [실행 결과가 있는 완성 예제 Colab 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week10/notebooks/Week10_Completed_Example.ipynb)
-- [강의 노션](https://app.notion.com/p/40eb2e6bf80780d0a91be75b4a596677)
-- [Drive 전체 자료](https://drive.google.com/drive/folders/1QAzK6zvNbnmODChS9MrjmB9AnERzdPgn)
-- [CSV Drive 제공본](https://drive.google.com/file/d/1XvhVGkqu-oswxe6zbXM2Dd1S3kZoL7Rw/view)
+- [완성 예제 Colab 열기 (실행 결과 포함)](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week10/notebooks/Week10_Completed_Example.ipynb)
+- [강의 노션](https://app.notion.com/p/40eb2e6bf80780d0a91be75b4a596677) · [Drive 주차 폴더](https://drive.google.com/drive/folders/1QAzK6zvNbnmODChS9MrjmB9AnERzdPgn)
 
-Colab에서 Drive에 사본을 저장하고 위에서 아래로 실행합니다. 기본 수업은 1~7단계 다음 9단계, 추가 실습은 8단계를 포함합니다. 자동 CSV 읽기가 실패하면 제공 CSV 1개를 업로드합니다. API 키가 필요 없습니다.
-
-## 자료
+## 폴더
 | 경로 | 내용 |
 |---|---|
-| data/ | 선택 원자료와 분석용 tidy CSV |
-| notebooks/ | 전체 코드가 있는 학생 워크북과 실행 결과 완성 예제 |
-| materials/Lecture_Notes.md | 개념·용어·수업 흐름·평가 |
-| materials/Student_Tutorial.md | 학생이 순서대로 실행할 전체 코드 |
-| materials/AI_SERVICE_COMPARISON.md | 실제 AI 서비스 비교 절차와 기록표 |
-| materials/SOURCES.md | 원출처, 보관본 경유, 가공 범위와 제한 |
-| materials/DATA_DICTIONARY.md | 열 정의·집계 단위 |
-| materials/Instructor_Guide.md | 교수자 진행·기준 결과·오류 대응 |
-| materials/validation.json | 실행·합계 검증 기록 |
-| results/ | 기본 조건의 결과 그림, 요약과 예측 결과 예시 |
+| `data/` | 학생용 CSV 3종(UTF-8). 노트북이 자동으로 읽음 |
+| `data/original/` | 열린데이터광장·공공데이터포털에서 받은 원본 그대로 |
+| `notebooks/` | 학생 워크북(기록 칸 비어 있음), 완성 예제(실행 결과·예시 답변) |
+| `figures/` | 노션용 개념 그림 c1~c4 |
+| `results/` | 완성 예제 실행 결과 그림 01~08, `ai_mae.csv` |
+| `materials/` | 출처(SOURCES.md), 교수자 가이드(기준 결과·오류 대응) |
+| `tools/` | 데이터 준비·노트북 생성·개념 그림 생성 스크립트 |
 
-## 데이터 범위
-2017년 2호선 6역, 12개월의 역사 보관본에서 72행을 선택했고 24시간 세로 변환 후 1,728행입니다. 공식 서울시 자료를 수집한 공개 저장소 보관본을 경유했으며 공식 원본과의 전수 대조는 수행하지 못했습니다. 최신 현황, 특정 평일, 실제 열차 탑승률을 나타내지 않습니다. 상세 출처는 SOURCES.md에 있습니다.
+## 데이터
+| 파일 | 행×열 | 내용 |
+|---|---|---|
+| `subway_hourly_202609.csv` | 621×52 | 2026년 9월 호선·역별 시간대별 승하차 인원(한 달 합계), OA-12252 |
+| `subway_congestion_20250331.csv` | 1662×45 | 서울교통공사 1~8호선 열차 혼잡도(%, 30분, 평일/토/일, 방향별) |
+| `citydata_places_121.csv` | 121×5 | 서울 실시간 도시데이터 주요 121장소 목록 |
 
-## 결과 미리보기
-![기본 히트맵](results/03_station_hour_heatmap.png)
+자세한 출처·한계는 [materials/SOURCES.md](materials/SOURCES.md).
 
-## 실행 환경과 확인 범위
-Python 3, pandas, numpy, matplotlib, scikit-learn. Colab 기본 CPU 런타임을 대상으로 작성했습니다. 로컬 Python에서 9개 코드 셀과 선택 심화를 실행하고, 다른 월·역 조건의 집계도 검사했습니다. 실제 Google Colab 서버에서 실행한 것은 아닙니다. 교통 공식 사이트/API 연결은 환경에서 실패하여 고정 보관본을 사용합니다.
-
-제출: 본인 답변을 채운 ipynb와 워크북에서 생성하는 ZIP. 실제 서비스 조회 실패 시 매뉴얼 기반 비교도 가능합니다. 예측 실습의 MAE는 수업 내부 이용량 예측 결과이며 공식 서비스 정확도가 아닙니다.
+## 재현
+```bash
+cd Week10
+python tools/build_week10_data.py      # data/original → data/*.csv
+python tools/make_notebooks.py         # notebooks/*.ipynb 생성
+python tools/make_concept_figures.py   # figures/c1~c4.png
+```
+검증: Python 3.13, pandas 3.0.5, matplotlib 3.11, scikit-learn 1.9.1에서 두 노트북을 처음부터 끝까지 실행해 오류 0건.
