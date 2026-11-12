@@ -80,26 +80,53 @@ print('준비 완료 · pandas', pd.__version__)"""))
 | `subway_congestion_20250331.csv` | **열차 혼잡도**(%, 30분 단위, 평일/토/일, 방향별) | 서울교통공사·공공데이터포털 15071311 |
 | `citydata_places_121.csv` | AI 인구 예측을 제공하는 **서울 주요 121장소** 목록 | 서울 실시간 도시데이터 |
 
-`load_csv` 함수는 ① 수업 GitHub → ② 수업 Google Drive 순서로 자동으로 읽습니다. 둘 다 실패하면 파일 업로드 창이 열리니 노션의 Drive 링크에서 받은 CSV를 올리세요.
+실습 파일은 모두 **수업 Google Drive 폴더**(`강의10주_교통데이터의시각화 → 01_실습데이터`)에 있습니다. 아래 셀은 Drive 파일 ID로 세 파일을 Colab의 `week10_data` 폴더에 **내려받은 뒤** 읽습니다. (Drive 로그인·마운트 불필요, 링크 공개 파일)
 
-✅ **확인:** `(621, 52)`, `(1662, 45)`, `(121, 5)`가 출력되어야 합니다."""))
-    c.append(code(f"""GITHUB = '{RAW}/data/'
+| 코드 | 하는 일 |
+|---|---|
+| `DRIVE_ID` | Drive에 저장된 파일마다 붙은 고유 번호 (Drive 링크 `/d/` 뒤의 문자열) |
+| `gdown.download(id=..., output=...)` | Drive 파일을 Colab으로 내려받기 (`gdown`은 Colab에 기본 설치) |
+| `pd.read_csv(경로)` | 내려받은 CSV를 표(DataFrame)로 읽기 |
+
+Drive 접속이 일시적으로 안 되면 수업 GitHub 사본으로 자동 전환되고, 그래도 안 되면 업로드 창이 열립니다(노션의 Drive 링크에서 CSV를 받아 올리기).
+
+✅ **확인:** 세 파일 모두 `[Google Drive]`에서 읽혔고 `(621, 52)`, `(1662, 45)`, `(121, 5)`가 출력되어야 합니다."""))
+    c.append(code(f"""DRIVE_FOLDER = 'https://drive.google.com/drive/folders/19KLHZYA21T2b5mcW4-_7wZrp7E0s4zHG'   # 01_실습데이터
 DRIVE_ID = {json.dumps(DRIVE_IDS, ensure_ascii=False, indent=1)}
+EXPECTED = {{'subway_hourly_202609.csv': (621, 52), 'subway_congestion_20250331.csv': (1662, 45),
+            'citydata_places_121.csv': (121, 5)}}
+BACKUP = '{RAW}/data/'          # Drive 접속 실패 시에만 쓰는 백업
+DATA_DIR = Path('week10_data')
+DATA_DIR.mkdir(exist_ok=True)
+
+def read_ok(path, name):
+    try:
+        df = pd.read_csv(path)
+        return df if df.shape == EXPECTED[name] else None
+    except Exception:
+        return None
 
 def load_csv(name):
-    sources = [Path('data') / name, GITHUB + name,
-               'https://drive.google.com/uc?export=download&id=' + DRIVE_ID[name]]
-    for src in sources:
-        try:
-            if isinstance(src, Path) and not src.exists():
-                continue
-            df = pd.read_csv(src)
-            print('✔ 읽기 성공:', name, df.shape)
-            return df
-        except Exception as e:
-            print('… 다음 경로 시도 (', type(e).__name__, ')')
-    from google.colab import files           # 모두 실패하면 직접 업로드
-    print(name, '파일을 업로드하세요.')
+    path = DATA_DIR / name
+    # ① Google Drive에서 내려받기
+    try:
+        import gdown
+        gdown.download(id=DRIVE_ID[name], output=str(path), quiet=True)
+    except Exception as e:
+        print('  Drive 내려받기 실패:', type(e).__name__)
+    df = read_ok(path, name) if path.exists() else None
+    if df is not None:
+        print('✔ [Google Drive]', name, df.shape)
+        return df
+    # ② 백업: 수업 GitHub
+    df = read_ok(BACKUP + name, name)
+    if df is not None:
+        df.to_csv(path, index=False, encoding='utf-8-sig')
+        print('✔ [GitHub 백업]', name, df.shape)
+        return df
+    # ③ 직접 업로드
+    from google.colab import files
+    print(name, '파일을 업로드하세요. (Drive 폴더:', DRIVE_FOLDER, ')')
     up = files.upload()
     return pd.read_csv(list(up.keys())[0])
 
