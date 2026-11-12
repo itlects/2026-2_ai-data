@@ -4,6 +4,9 @@
 서울 열린데이터광장의 지하철 승하차 데이터를 시각화하고, 실제 열차 혼잡도·AI 혼잡도 예측과 비교합니다.
 
 ## 바로 시작
+실습 데이터는 Google Drive `강의10주_교통데이터의시각화/01_실습데이터`에 있고, 노트북 1단계가 Drive 파일 ID로 내려받아 읽습니다(gdown). 이 저장소의 `data/`는 Drive 접속 실패 시 쓰는 백업입니다.
+
+- [학생 워크북 Colab (Drive 저장본)](https://colab.research.google.com/drive/1wQ-B1rr8I1PiG0ZR7z00kXayuF23uS9h)
 - [학생 워크북 Colab 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week10/notebooks/Week10_Student_Workbook.ipynb)
 - [완성 예제 Colab 열기 (실행 결과 포함)](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week10/notebooks/Week10_Completed_Example.ipynb)
 - [강의 노션](https://app.notion.com/p/40eb2e6bf80780d0a91be75b4a596677) · [Drive 주차 폴더](https://drive.google.com/drive/folders/1QAzK6zvNbnmODChS9MrjmB9AnERzdPgn)
@@ -11,7 +14,7 @@
 ## 폴더
 | 경로 | 내용 |
 |---|---|
-| `data/` | 학생용 CSV 3종(UTF-8). 노트북이 자동으로 읽음 |
+| `data/` | 학생용 CSV 3종(UTF-8). Drive 원본과 동일(백업용) |
 | `data/original/` | 열린데이터광장·공공데이터포털에서 받은 원본 그대로 |
 | `notebooks/` | 학생 워크북(기록 칸 비어 있음), 완성 예제(실행 결과·예시 답변) |
 | `figures/` | 노션용 개념 그림 c1~c4 |
