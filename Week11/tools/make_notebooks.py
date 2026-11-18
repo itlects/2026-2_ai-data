@@ -374,7 +374,7 @@ pred['7일 평균'] = test[lag_cols].mean(axis=1)
 pred['7일 직선추세'] = intercept
 display(pred.head(3).round(3))""")
     add_md("""### 🔧 바꿔 보기 (선택)
-직선을 맞추는 기간 `N` 을 3, 5, 14 등으로 바꿔 실행해 보세요. 이 셀은 아래 단계에 영향을 주지 않습니다(14는 7단계 입력이 7일뿐이라 7까지만 가능).""")
+직선을 맞추는 기간 `N` 을 2~7 사이 숫자(예: 3, 5)로 바꿔 실행해 보세요. 입력이 지난 7일뿐이라 7까지만 가능합니다. 이 셀은 아래 단계에 영향을 주지 않습니다.""")
     add_code("""N = 3          # ← 2~7 사이 숫자로 바꿔 보기
 x = np.arange(-N, 0)
 _, b = np.polyfit(x, test[lag_cols[:N][::-1]].to_numpy().T, 1)
@@ -411,7 +411,7 @@ pred['AI 선형회귀'] = lin.predict(X_test)
 pred['AI 랜덤포레스트'] = forest.predict(X_test)
 assert pred.notna().all().all()
 
-print('선형회귀 가중치:', dict(zip(features, lin.coef_.round(3))))
+print('선형회귀 가중치:', {f: round(float(w), 3) for f, w in zip(features, lin.coef_)})
 imp = pd.Series(forest.feature_importances_, index=features).sort_values()
 fig, ax = plt.subplots(figsize=(7, 3.5))
 imp.plot.barh(ax=ax, color='tab:green')
