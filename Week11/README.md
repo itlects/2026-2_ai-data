@@ -6,6 +6,7 @@
 ## 바로 시작
 실습 데이터는 Google Drive `강의11주_환경·기후 데이터의 가공 및 분석/01_실습데이터`에 있습니다. 노트북 1단계에서 Drive 파일 ID로 이 데이터를 내려받아 읽습니다(gdown). 이 저장소의 `data/`는 Drive에 접속하지 못할 때 쓰는 백업입니다.
 
+- [학생 워크북 Colab (Drive 저장본)](https://colab.research.google.com/drive/1LNbCwLelyQLtA-BYg6mcCtiNoeUdOPuV) · [강의자 시연 완성본 (Drive 저장본)](https://colab.research.google.com/drive/1ocdCmMvNOo56G5-f-iXC1GbhaX1dZZQH)
 - [학생 워크북 Colab 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week11/notebooks/Week11_Student_Workbook.ipynb)
 - [강의자 시연 완성본 Colab 열기 (실행 결과 포함)](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/Week11/notebooks/Week11_Instructor_Demo.ipynb)
 - [강의 노션](https://app.notion.com/p/41cb2e6bf80780599600fbbb9501e8c4) · [Drive 주차 폴더](https://drive.google.com/drive/folders/1THcJdADR-JKKNZHZOJUW9fr2JpeNcmFp)
