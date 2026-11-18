@@ -11,10 +11,25 @@
 
 ## 따라하기
 
-1. [예제 코랩 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/week11-climate/01_example.ipynb)에서 날짜·결측 검사와 이동평균을 실행합니다.
-2. [워크북 코랩 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/week11-climate/02_workbook.ipynb)에서 입력과 정답 만들기부터 결과 내려받기까지 진행합니다.
+1. [강의용 코랩 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/week11-climate/01_example.ipynb)에서 날짜·결측 검사와 이동평균을 실행합니다.
+2. [학생 실습용 코랩 열기](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/week11-climate/02_workbook.ipynb)에서 입력과 정답 만들기부터 결과 내려받기까지 진행합니다.
 3. 코랩에서 **파일 → Drive에 사본 저장**, **런타임 → 모두 실행** 순서로 실행합니다. CPU로 충분합니다. CSV 자동 읽기가 실패하면 [실습 CSV](data/daegu_143_daily_temperature.csv)를 다운로드한 뒤 코랩 세션에 올리고 다시 실행합니다.
 4. 작성한 노트북, week11_predictions.csv, week11_metrics.csv, week11_forecast_comparison.png를 준비합니다.
+
+## 기상자료를 읽는 법
+
+| 지표 | 단위 | 해석 |
+|---|---|---|
+| 평균기온·최고기온·최저기온 | °C | 평균은 하루의 대표값입니다. 최고·최저는 온도가 어디까지 오르내렸는지 보여줍니다. |
+| 일교차 | °C | 같은 날 최고기온 − 최저기온입니다. 하루 평균만으로는 계산할 수 없습니다. |
+| 일강수량 | mm | 하루 동안 내린 비 등의 물 깊이입니다. 1 mm는 평평한 1 m²에 물 1 L가 쌓인 깊이입니다. 0과 빈칸의 의미는 자료 설명에서 각각 확인합니다. |
+| 상대습도 | % | 같은 온도에서 공기가 포화됐을 때와 비교한 수증기 비율입니다. 100%는 그 온도에서 포화 상태를 뜻합니다. |
+| 풍속·풍향 | m/s, 방향 또는 ° | 바람의 세기와 불어오는 방향입니다. 북풍은 북쪽에서 불어옵니다. |
+| 기압 | hPa | 공기가 누르는 압력입니다. 현지기압과 해면기압은 기준 높이가 다릅니다. |
+
+실습 CSV에는 **날짜, 시간별 관측에서 집계한 일평균기온, 유효 관측 시간 수**가 들어 있습니다. 최고·최저기온, 강수량, 습도 등은 원자료에서 별도로 확인할 수 있는 지표의 예입니다. 이 CSV의 일평균기온이 공식 일자료의 값과 다를 수 있습니다.
+
+예를 들어 어느 날 최저 4°C, 최고 16°C라면 일교차는 12°C입니다. 시간 관측의 평균이 9°C였다면 하루 평균은 9°C입니다. 관측 시간 수가 23이면 어느 시간대가 빠졌는지에 따라 평균도 달라질 수 있어 실습에서는 그날 값을 결측으로 처리합니다.
 
 ## 실습 데이터
 
