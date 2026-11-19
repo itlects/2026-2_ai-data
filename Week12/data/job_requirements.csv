@@ -1,0 +1,7 @@
+job_id,title,region,career,education,practice_skills
+J01,데이터 분석 보조,서울,신입,학력무관,"Python, SQL"
+J02,웹 개발 보조,경기,경력 1년,학력무관,"Python, Git"
+J03,고객 데이터 관리,서울,신입,학력무관,"Excel, SQL"
+J04,서비스 운영,경기,신입,학력무관,"Excel, 문서작성"
+J05,데이터 시각화,서울,경력 1년,학력무관,"Python, Excel"
+J06,품질 데이터 관리,인천,신입,학력무관,"SQL, Excel"
