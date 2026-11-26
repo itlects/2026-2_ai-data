@@ -343,7 +343,7 @@ ALLOWED = set(numbers_in(FACT_TEXT)) | {2025.0, 33.0, 143.0}
 
 def check_numbers(text, show=True):
     nums = numbers_in(text)
-    fmt = lambda n: f'{n:,.0f}' if n == int(n) else f'{n:,.1f}'
+    fmt = lambda n: f'{n:.0f}' if n == int(n) else f'{n:.1f}'
     ok = [fmt(n) for n in nums if n in ALLOWED]
     ng = [fmt(n) for n in nums if n not in ALLOWED]
     if show:
@@ -420,7 +420,7 @@ if cards_v3:
     add_md("""## 7단계. 프롬프트 v4 — 잘 쓴 예시 보여 주기 (Few-shot) (6분)
 말로 "재미있게 써 줘"라고 하는 것보다 **잘 쓴 예시 2개**를 보여 주는 것이 문체를 더 정확하게 전달합니다.
 
-예시는 **다른 주제**(도서관 이용 결산)로 넣었습니다. 예시의 숫자(`12만`, `3월` 등)가 대구 날씨 글에 섞여 들어오는지도 숫자 점검표로 확인하세요.
+예시는 **다른 주제**(도서관 이용 결산)로 넣었습니다. 예시의 숫자(`12만`, `4월`, `2024`)가 대구 날씨 글에 섞여 들어오는지도 숫자 점검표로 확인하세요.
 
 ✅ **확인:** `카드 인식: 4 장`, 사실표에 없는 숫자 **1개**(예비 응답 기준 `39` — 7월 18일 + 8월 21일을 AI가 더한 값). ✘라고 해서 모두 틀린 것은 아닙니다. 사람이 판단합니다 → 9단계.""")
     add_code("""FEWSHOT = '''[예시 — 다른 주제, 숫자는 쓰지 말 것]

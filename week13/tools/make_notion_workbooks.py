@@ -12,8 +12,8 @@ stu = nbformat.read(ROOT / "notebooks" / "Week13_Student_Workbook.ipynb", as_ver
 ins = nbformat.read(ROOT / "notebooks" / "Week13_Instructor_Demo.ipynb", as_version=4)
 assert len(stu.cells) == len(ins.cells)
 
-STUDENT_COLAB = "https://colab.research.google.com/drive/1ulJkM1g6ojBR5qX7Bq07hVjhoG7KRaZg"
-INSTR_COLAB = "https://colab.research.google.com/drive/1cGn8WJHPVDJKQoneIynDVqGpF-NYEOU3"
+STUDENT_COLAB = "https://colab.research.google.com/drive/1yfC_Y1NFxIZgmNFaaBpeaYSPRuOpzIUy"
+INSTR_COLAB = "https://colab.research.google.com/drive/10l9irpctHZoZUQ6pyWyWYyI0VFUprkOq"
 
 # 단계 머리(## N단계) 앞에 넣을 진행 callout, 단계 끝에 넣을 CP
 CUE = {
@@ -94,7 +94,9 @@ def render(cells_range, title_note):
             parts.append(fence(code))
         if any(code.lstrip().startswith(k) or k in code.split("\n")[0] for k in WRITE_CELLS) or "FINAL_TEXT = " in code:
             if t.source != s.source:
-                parts.append(f'<toggle>\n✍️ 강의자 예시 답 (완성본 노트북의 값)\n\n{fence(t.source)}\n</toggle>')
+                lines = t.source.split("\n")
+                cut = next((k for k, L in enumerate(lines) if "✍️" in L), len(lines) - 1)
+                parts.append(f'<toggle>\n✍️ 강의자 예시 답 (완성본 노트북의 값)\n\n{fence(chr(10).join(lines[:cut + 1]))}\n</toggle>')
         txt, imgs = outputs_text(t)
         if txt:
             if len(txt) > 2500:

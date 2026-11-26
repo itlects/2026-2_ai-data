@@ -14,7 +14,7 @@
 AI는 Colab에 들어 있는 `google.colab.ai`(Gemini)를 씁니다. API 키는 필요 없습니다. Colab AI를 쓸 수 없으면 오프라인 예비 응답으로 자동 전환되므로 실습이 끊기지 않습니다.
 
 ## 바로 시작
-- [학생 워크북 Colab (Drive 저장본)](https://colab.research.google.com/drive/1ulJkM1g6ojBR5qX7Bq07hVjhoG7KRaZg) · [강의자 시연 완성본 (Drive 저장본)](https://colab.research.google.com/drive/1cGn8WJHPVDJKQoneIynDVqGpF-NYEOU3)
+- [학생 워크북 Colab (Drive 저장본)](https://colab.research.google.com/drive/1yfC_Y1NFxIZgmNFaaBpeaYSPRuOpzIUy) · [강의자 시연 완성본 (Drive 저장본)](https://colab.research.google.com/drive/10l9irpctHZoZUQ6pyWyWYyI0VFUprkOq)
 - [학생 워크북 Colab (GitHub)](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/week13/notebooks/Week13_Student_Workbook.ipynb)
 - [강의자 시연 완성본 Colab (실행 결과 포함)](https://colab.research.google.com/github/itlects/2026-2_ai-data/blob/main/week13/notebooks/Week13_Instructor_Demo.ipynb)
 - [강의 노션](https://app.notion.com/p/41db2e6bf80780b5bb0bc96a118d3ba5)

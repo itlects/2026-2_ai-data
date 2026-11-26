@@ -1,8 +1,8 @@
 <callout icon="📒" color="blue_bg">
 <b>워크북 2 — 검증·편집, 카드뉴스 제작, 블라인드 비교 (9~12단계 · 78~120분)</b>
 
-- 학생: [학생 워크북 Colab](https://colab.research.google.com/drive/1ulJkM1g6ojBR5qX7Bq07hVjhoG7KRaZg) → `파일 → Drive에 사본 저장` 후 실행
-- 강의자: [강의자 시연 완성본 Colab](https://colab.research.google.com/drive/1cGn8WJHPVDJKQoneIynDVqGpF-NYEOU3) (실행 결과·예시 답 저장본)
+- 학생: [학생 워크북 Colab](https://colab.research.google.com/drive/1yfC_Y1NFxIZgmNFaaBpeaYSPRuOpzIUy) → `파일 → Drive에 사본 저장` 후 실행
+- 강의자: [강의자 시연 완성본 Colab](https://colab.research.google.com/drive/10l9irpctHZoZUQ6pyWyWYyI0VFUprkOq) (실행 결과·예시 답 저장본)
 - 두 노트북은 서로 다른 파일입니다. 강의자가 실행해도 학생 노트북에는 영향이 없습니다.
 - 이 페이지의 코드는 노트북 코드와 같습니다. '실행 결과 예시'는 오프라인 예비 응답 기준이며, 실제 AI 응답은 실행할 때마다 달라집니다.
 </callout>
@@ -49,13 +49,6 @@ FINAL_TEXT = """[카드1] 제목: 2025 대구, 숫자로 본 1년 / 본문: 덥�
 [카드2] 제목: 폭염 48일, 37.4°C / 본문: 33°C 이상인 날만 48일. 그중 39일이 7~8월에 몰렸어요. 정점은 7월 7일!
 [카드3] 제목: 7월에만 비 248mm / 본문: 1년 비 1,029mm 중 7월이 최다. 7월 17일엔 하루 102.3mm가 쏟아졌어요
 [카드4] 제목: 최저 -10.6°C의 겨울 / 본문: 가장 추운 날은 1월 10일, 달 평균으로는 2월(1.2°C)이 가장 추웠어요. 자료: 기상청 ASOS 대구"""   # ✍️ 고친 최종본
-
-final_text = FINAL_TEXT.strip() or responses.get('v4', '')
-final_cards = parse_cards(final_text)
-print()
-check_numbers(final_text)
-print(f'최종본: 카드 {len(final_cards)}장')
-display(pd.DataFrame(final_cards, index=[f'카드{i}' for i in range(1, len(final_cards) + 1)]))
 ```
 </toggle>
 
@@ -68,7 +61,7 @@ display(pd.DataFrame(final_cards, index=[f'카드{i}' for i in range(1, len(fina
 [카드3] 제목: 7월에만 비 248mm / 본문: 1년 비 1,029mm 중 7월이 최다. 7월 17일엔 하루 102.3mm가 쏟아졌어요
 [카드4] 제목: 최저 -10.6°C의 겨울 / 본문: 1월 10일이 가장 추웠고, 가장 추운 달도 1월이었어요. 자료: 기상청 ASOS 대구
 
-✔ 사실표에 있는 숫자 : 2,025, 1, 2,025, 48, 37.4, 33, 48, 7, 8, 7, 7, 7, 248, 1, 1,029, 7, 7, 17, 102.3, 10.6, 1, 10, 2, 1.2
+✔ 사실표에 있는 숫자 : 2025, 1, 2025, 48, 37.4, 33, 48, 7, 8, 7, 7, 7, 248, 1, 1029, 7, 7, 17, 102.3, 10.6, 1, 10, 2, 1.2
 ✘ 사실표에 없는 숫자 : 39
 → 숫자 25개 중 사실표에 없는 숫자 1개
 최종본: 카드 4장
@@ -212,7 +205,6 @@ SCORES = {"A": {"정확성": 0, "읽고 싶음": 0, "행동 유도": 0}, "B": {"
 
 ```python
 GUESS = 'B'      # ✍️ 짝이 AI라고 고른 쪽: 'A' 또는 'B'
-SCORES = {"A": {"정확성": 4, "읽고 싶음": 5, "행동 유도": 4}, "B": {"정확성": 5, "읽고 싶음": 3, "행동 유도": 3}}   # ✍️ 1~5점
 ```
 </toggle>
 
