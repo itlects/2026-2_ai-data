@@ -95,7 +95,7 @@ def render(cells_range, title_note):
         if any(code.lstrip().startswith(k) or k in code.split("\n")[0] for k in WRITE_CELLS) or "FINAL_TEXT = " in code:
             if t.source != s.source:
                 lines = t.source.split("\n")
-                cut = next((k for k, L in enumerate(lines) if "✍️" in L), len(lines) - 1)
+                cut = max([k for k, L in enumerate(lines) if "✍️" in L] or [len(lines) - 1])
                 parts.append(f'<toggle>\n✍️ 강의자 예시 답 (완성본 노트북의 값)\n\n{fence(chr(10).join(lines[:cut + 1]))}\n</toggle>')
         txt, imgs = outputs_text(t)
         if txt:
